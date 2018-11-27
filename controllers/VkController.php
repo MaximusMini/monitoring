@@ -306,7 +306,7 @@ class VkController extends Controller
             'labels' => $labels,
         ]);
     }
-    
+
 
     public function actionDelete_account($account_id)
     {
