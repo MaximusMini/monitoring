@@ -18,6 +18,9 @@ use app\models\VkGroupLinks;
 use yii\data\ActiveDataProvider;
 use app\models\VkAccounts;
 
+// модель сбора постов за день
+use app\models\VkMonitoringDay;
+
 class VkController extends Controller
 {
     public function actionIndex()
@@ -319,4 +322,35 @@ class VkController extends Controller
         $delete->delete();
         VkAccountsPhotoSizes::deleteAll(['account_id' => $account_id]);
     }
+    
+    
+    
+    // мониторинг за день
+    public function actionMonitoringDay(){
+        if(Yii::$app->request->get('par') == 'start'){
+            // создание объекта класса VkMonitoringDay
+            $object_day = new VkMonitoringDay();    
+            $id_group = $object_day->get_id_group();
+            // получение постов
+            $posts_day = $object_day->get_posts_day();
+            // ответ
+            $answer = $object_day->answer;
+            
+            return $this->render('monitoring_day',['par'=>'start', 
+                                                   'id_group'=>$id_group,
+                                                   'posts_day'=>$posts_day,
+                                                   'answer'=>$answer
+                                                  ]);   
+        }else{
+            return $this->render('monitoring_day');    
+        }
+        
+        
+        
+    }
+    
+    
+    
+    
+    
 }

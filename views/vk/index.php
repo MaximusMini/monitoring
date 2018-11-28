@@ -19,7 +19,11 @@ $this->title = 'VK';
     </div>
     <div class="content">
         <h2 class="alert alert-success">Мониторинг групп</h2>
-        <button class="btn btn-info">За день</button>
+
+        <a href="<?= Yii::$app->urlManager->createUrl(['vk/monitoring-day']) ?>" class="btn btn-info">
+        За день
+        
+        </a>
         <button class="btn btn-info">За неделю</button>
         <button class="btn btn-info">За период</button>
     </div>
