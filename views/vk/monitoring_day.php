@@ -62,7 +62,7 @@ $this->title = ('Мониторинг за день');
                     </div><!--class="panel-heading"-->
 					<div class="panel-body">
                         <!--Текст поста-->    
-					    <?=$item['text']?>
+					    <?=str_replace('💪🏻','',$item['text'])?> 
 					</div><!--class="panel-body"-->
 				</div><!--class="panel panel-info"-->
             <?php endforeach;?>       

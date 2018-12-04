@@ -66,14 +66,14 @@ class VkMonitoringDay extends Model{
     // получение постов
     function get_posts_day(){
         // очистка таблицы vk_posts
-        $query_TRUNCATE="TRUNCATE TABLE vk_posts";
+        //$query_TRUNCATE="TRUNCATE TABLE vk_posts";
         $this->id_connect_DB->createCommand($query_TRUNCATE)->execute();
         for($i=0; $i<count($this->arr_id_group); $i++){
             // запрос 
             $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=1&offset=1&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
             // преобразование ответа в массив
             $answer_arr = json_decode($this->answer,true);
-            // проверка наличия ошибки при запросе
+            // проверка наличия ошибки при запросе'💪🏻💪🏻'
             if(isset($answer_arr['error'])){
                 // запись лога об ошибке
                 file_put_contents('logs/error_wall.get.log',
@@ -88,7 +88,7 @@ class VkMonitoringDay extends Model{
                 
             }
             // добавление данных в массив
-            array_push($this->var_temp, json_decode($this->answer,true));
+            array_push($this->var_temp, $answer_arr);
             // запись лога об успешном запросе
             file_put_contents('logs/success_wall.get.log',
                               'success method:wall.get '.date('d.m.Y G:i:s').' -|- '.
@@ -105,16 +105,24 @@ class VkMonitoringDay extends Model{
             time_post       время поста                         date("G:i",$answer_arr[0]['response']['items'][0]['date'])
             text_post       текст поста                         $answer_arr[0]['response']['items'][0]['text']
             */
-            
+            // формирование запроса
             $query_INSERT="INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
-                        {$answer_arr[0]['response']['items'][0]['id']},
+                        {$answer_arr['response']['items'][0]['id']},
                         {$this->arr_id_group[$i]['group_id']},
-                        {$answer_arr[0]['response']['count']},
-                        {date('d.m.Y',$answer_arr[0]['response']['items'][0]['date'])},
-                        {date('G:i',$answer_arr[0]['response']['items'][0]['date'])},
-                        {$answer_arr[0]['response']['items'][0]['text']})";
-            file_put_contents('query_INSERT.txt',$query_INSERT,FILE_APPEND);
-            $this->id_connect_DB->createCommand($query_INSERT)->execute();
+                        {$answer_arr['response']['count']},
+                        '".date('d.m.Y',$answer_arr['response']['items'][0]['date'])."',
+                        '".date('G:i',$answer_arr['response']['items'][0]['date'])."',
+                        '".$answer_arr['response']['items'][0]['text']."')";
+            //'".str_replace('💪🏻','',$answer_arr['response']['items'][0]['text'])."'";
+            // запись в файл
+            file_put_contents('query_INSERT.txt',$query_INSERT."\n",FILE_APPEND);
+            // проверка наличия записи в БД
+            if($this->id_connect_DB->createCommand('SELECT * FROM vk_posts WHERE id_post='.$answer_arr['response']['items'][0]['id'])->queryAll() == null){
+                // запись в БД
+                $this->id_connect_DB->createCommand($query_INSERT)->execute();    
+            }
+            //$this->id_connect_DB->createCommand($query_INSERT)->execute();
+            
            
             
             /*

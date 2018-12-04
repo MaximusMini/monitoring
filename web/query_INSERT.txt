@@ -1,7 +1,194 @@
 INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
-                        ,
-                        99725619,
-                        ,
-                        {date('d.m.Y',['response']['items'][0]['date'])},
-                        {date('G:i',['response']['items'][0]['date'])},
-                        )
+                        657573,
+                        42405053,
+                        20958,
+                        04.12.2018,
+                        21:50,
+                        'И заканчивается овертайм. Уступаем, увы.'
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        419616,
+                        26816142,
+                        59292,
+                        01.12.2018,
+                        10:00,
+                        'Скоро МЧМ 😍
+
+Сохраняй на стену, чтобы не потерять 😉'
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        772384,
+                        5458312,
+                        16273,
+                        04.12.2018,
+                        19:53,
+                        'Крутая игра, крутые призы! Магнитогорцы, вперёд!))'
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657573,
+                        42405053,
+                        20958,
+                        04.12.2018,
+                        21:50,
+                        'И заканчивается овертайм. Уступаем, увы.'
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657573,
+                        42405053,
+                        20958,
+                        2018-12-04,
+                        21:50,
+                        'И заканчивается овертайм. Уступаем, увы.'
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657749,
+                        42405053,
+                        20960,
+                        2018-12-04,
+                        22:04,
+                        'Послематчевую пресс-конференцию тренеров смотрим тут: https://www.youtube.com/watch?v=BOn7cfHKG4Y'
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657749,
+                        42405053,
+                        20960,
+                        2018-12-04,
+                        22:04,
+                        'Послематчевую пресс-конференцию тренеров смотрим тут: https://www.youtube.com/watch?v=BOn7cfHKG4Y')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657749,
+                        42405053,
+                        20960,
+                        '04.12.2018',
+                        '22:04',
+                        'Послематчевую пресс-конференцию тренеров смотрим тут: https://www.youtube.com/watch?v=BOn7cfHKG4Y')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        419616,
+                        26816142,
+                        59292,
+                        '01.12.2018',
+                        '10:00',
+                        'Скоро МЧМ 😍
+
+Сохраняй на стену, чтобы не потерять 😉')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        772384,
+                        5458312,
+                        16273,
+                        '04.12.2018',
+                        '19:53',
+                        'Крутая игра, крутые призы! Магнитогорцы, вперёд!))')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657765,
+                        42405053,
+                        20962,
+                        '04.12.2018',
+                        '22:11',
+                        'Пресс-конференция после «Трактора» (2:3 ОТ) ПРЯМОЙ ЭФИР')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        419616,
+                        26816142,
+                        59292,
+                        '01.12.2018',
+                        '10:00',
+                        'Скоро МЧМ 😍
+
+Сохраняй на стену, чтобы не потерять 😉')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        772384,
+                        5458312,
+                        16273,
+                        '04.12.2018',
+                        '19:53',
+                        'Крутая игра, крутые призы! Магнитогорцы, вперёд!))')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657765,
+                        42405053,
+                        20962,
+                        '04.12.2018',
+                        '22:11',
+                        'Пресс-конференция после «Трактора» (2:3 ОТ) ПРЯМОЙ ЭФИР')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        419616,
+                        26816142,
+                        59292,
+                        '01.12.2018',
+                        '10:00',
+                        'Скоро МЧМ 😍
+
+Сохраняй на стену, чтобы не потерять 😉')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        772384,
+                        5458312,
+                        16273,
+                        '04.12.2018',
+                        '19:53',
+                        'Крутая игра, крутые призы! Магнитогорцы, вперёд!))')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657765,
+                        42405053,
+                        20962,
+                        '04.12.2018',
+                        '22:11',
+                        'Пресс-конференция после «Трактора» (2:3 ОТ) ПРЯМОЙ ЭФИР')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657765,
+                        42405053,
+                        20962,
+                        '04.12.2018',
+                        '22:11',
+                        'Пресс-конференция после «Трактора» (2:3 ОТ) ПРЯМОЙ ЭФИР')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        419616,
+                        26816142,
+                        59292,
+                        '01.12.2018',
+                        '10:00',
+                        'Скоро МЧМ 😍
+
+Сохраняй на стену, чтобы не потерять 😉')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        772384,
+                        5458312,
+                        16273,
+                        '04.12.2018',
+                        '19:53',
+                        'Крутая игра, крутые призы! Магнитогорцы, вперёд!))')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657765,
+                        42405053,
+                        20962,
+                        '04.12.2018',
+                        '22:11',
+                        'Пресс-конференция после «Трактора» (2:3 ОТ) ПРЯМОЙ ЭФИР')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        419616,
+                        26816142,
+                        59292,
+                        '01.12.2018',
+                        '10:00',
+                        'Скоро МЧМ 😍
+
+Сохраняй на стену, чтобы не потерять 😉')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        772384,
+                        5458312,
+                        16273,
+                        '04.12.2018',
+                        '19:53',
+                        'Крутая игра, крутые призы! Магнитогорцы, вперёд!))')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        657761,
+                        42405053,
+                        20962,
+                        '04.12.2018',
+                        '22:09',
+                        'Такая сегодня статистика. Отыграли две шайбы, но овертайм всё решил 🤷🏻‍♂')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        419985,
+                        26816142,
+                        59292,
+                        '04.12.2018',
+                        '21:35',
+                        'Ян Коварж не вернётся в КХЛ, форвард переходит в чемпионат Чехии')
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        772274,
+                        5458312,
+                        16273,
+                        '04.12.2018',
+                        '18:41',
+                        '')
