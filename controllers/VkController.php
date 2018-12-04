@@ -330,16 +330,19 @@ class VkController extends Controller
         if(Yii::$app->request->get('par') == 'start'){
             // создание объекта класса VkMonitoringDay
             $object_day = new VkMonitoringDay();    
-            $id_group = $object_day->get_id_group();
-            // получение постов
-            $posts_day = $object_day->get_posts_day();
+            
+            // вызов главной функции модели
+            $object_day->main();
+            // посты
+            $posts_day = $object_day->var_temp;
             // ответ
             $answer = $object_day->answer;
             
             return $this->render('monitoring_day',['par'=>'start', 
                                                    'id_group'=>$id_group,
                                                    'posts_day'=>$posts_day,
-                                                   'answer'=>$answer
+                                                   'answer'=>$answer,
+                                                   'type_group'=>$object_day->arr_type_group
                                                   ]);   
         }else{
             return $this->render('monitoring_day');    

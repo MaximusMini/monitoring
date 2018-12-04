@@ -1,0 +1,7 @@
+INSERT INTO vk_posts(id_post, id_group, count, date_post, time_post, text_post) VALUES (
+                        ,
+                        99725619,
+                        ,
+                        {date('d.m.Y',['response']['items'][0]['date'])},
+                        {date('G:i',['response']['items'][0]['date'])},
+                        )

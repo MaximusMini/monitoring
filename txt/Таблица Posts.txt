@@ -1,0 +1,13 @@
+
+Vk_posts - таблица для хранения постов
+
+	id_post			id поста                            $answer_arr[0]['response']['items'][0]['id']
+	id_group		id группы                           $this->arr_id_group[$i]['group_id']
+	count			количество записей в группе         $answer_arr[0]['response']['count']
+	date_post       дата поста                          date("d.m.Y",$answer_arr[0]['response']['items'][0]['date'])
+	time_post       время поста                         date("G:i",$answer_arr[0]['response']['items'][0]['date'])
+	text_post       текст поста                         $answer_arr[0]['response']['items'][0]['text']
+	
+	создание таблицы
+		CREATE TABLE `yii_project`.`vk_posts` ( `id_post` INT NOT NULL , `id_group` INT NOT NULL , `count` INT NOT NULL , `date_post` DATE NOT NULL , `time_post` TIME NOT NULL , `text_post` TEXT NULL , PRIMARY KEY (`id_post`)) ENGINE = InnoDB CHARSET=utf8 COLLATE utf8_general_ci;
+	
