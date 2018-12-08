@@ -49,20 +49,20 @@ $this->title = ('Мониторинг за день');
                                 <span class="text-muted"><?=date("d.m.Y G:i",$item['date'])?></span>
                                 <br>
                                 <!--ссылка на пост-->
-                                <?php if($type_group[substr($post['response']['items'][0]['owner_id'],1)] == 'group' ): ?>
+                                <?php if($type_group[substr($item['owner_id'],1)] == 'group' ): ?>
                                 <?php /*ссылка на пост группы*/  ?>
-                                    <span class="text-warning"><a href="<?='https://vk.com/club'.substr($post['response']['items'][0]['owner_id'],1).'?w=wall'.$post['response']['items'][0]['owner_id'].'_'.$post['response']['items'][0]['id']?>" target="_blank">ссылка на пост</a></span>
+                                    <span class="text-warning"><a href="<?='https://vk.com/club'.substr($post['response']['items'][0]['owner_id'],1).'?w=wall'.$post['response']['items'][0]['owner_id'].'_'.$item['id']?>" target="_blank">ссылка на пост</a></span>
                                 <?php endif;?>
-                                <?php if($type_group[substr($post['response']['items'][0]['owner_id'],1)] == 'page' ): ?>
+                                <?php if($type_group[substr($item['owner_id'],1)] == 'page' ): ?>
                                 <?php /* ссылка на пост публичной страницы*/ ?>
-                                    <span class="text-warning"><a href="<?='https://vk.com/public'.substr($post['response']['items'][0]['owner_id'],1).'?w=wall'.$post['response']['items'][0]['owner_id'].'_'.$post['response']['items'][0]['id']?>" target="_blank">ссылка на пост</a></span>
+                                    <span class="text-warning"><a href="<?='https://vk.com/public'.substr($post['response']['items'][0]['owner_id'],1).'?w=wall'.$post['response']['items'][0]['owner_id'].'_'.$item['id']?>" target="_blank">ссылка на пост</a></span>
                                 <?php endif;?>    
 					        </div>
 					    </div> <!--class="panel-heading"-->
                     </div><!--class="panel-heading"-->
 					<div class="panel-body">
                         <!--Текст поста-->    
-					    <?=str_replace('💪🏻','',$item['text'])?> 
+					    <?=$item['text']?> 
 					</div><!--class="panel-body"-->
 				</div><!--class="panel panel-info"-->
             <?php endforeach;?>       

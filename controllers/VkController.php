@@ -342,7 +342,7 @@ class VkController extends Controller
                                                    'id_group'=>$id_group,
                                                    'posts_day'=>$posts_day,
                                                    'answer'=>$answer,
-                                                   'type_group'=>$object_day->arr_type_group
+                                                   'type_group'=>$object_day->arr_type_group // массив с типом группы (сообщества)
                                                   ]);   
         }else{
             return $this->render('monitoring_day');    

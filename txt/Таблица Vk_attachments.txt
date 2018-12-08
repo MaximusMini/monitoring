@@ -1,0 +1,3 @@
+
+Vk_attachments - таблица для хранения attachments к постам VK
+	

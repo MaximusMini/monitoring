@@ -1,9 +1,12 @@
 
 Vk_posts - таблица для хранения постов
 
+	id_group_post	ключ поста							$this->arr_id_group[$i]['group_id'].'_'.$answer_arr['response']['items'][$j]['id']
 	id_post			id поста                            $answer_arr[0]['response']['items'][0]['id']
 	id_group		id группы                           $this->arr_id_group[$i]['group_id']
+	is_pinned		признак закрепленной записи			$answer_arr['response']['items'][0]['is_pinned']
 	count			количество записей в группе         $answer_arr[0]['response']['count']
+	date_unix		даьта и время публикации поста		$answer_arr['response']['items'][0]['date']
 	date_post       дата поста                          date("d.m.Y",$answer_arr[0]['response']['items'][0]['date'])
 	time_post       время поста                         date("G:i",$answer_arr[0]['response']['items'][0]['date'])
 	text_post       текст поста                         $answer_arr[0]['response']['items'][0]['text']
