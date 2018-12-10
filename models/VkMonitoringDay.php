@@ -13,7 +13,8 @@ class VkMonitoringDay extends Model{
     public $arr_id_group=[];            // массив для хранения id групп
     public $arr_type_group=[];          // массив для хранения типа групп
     
-    public $var_temp=[];
+    public $arr_posts=[];               // массив с данными о постах
+    public $arr_attach=[];              // массии с данными об attachnments
     public $answer;    
     
     
@@ -70,7 +71,7 @@ class VkMonitoringDay extends Model{
         $this->id_connect_DB->createCommand($query_TRUNCATE)->execute();
         for($i=0; $i<count($this->arr_id_group); $i++){
             // запрос 
-            $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=15&offset=0&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
+            $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=3&offset=0&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
             // преобразование ответа в массив
             $answer_arr = json_decode($this->answer,true);
             // проверка наличия ошибки при запросе'💪🏻💪🏻'
@@ -88,7 +89,7 @@ class VkMonitoringDay extends Model{
                 
             }
             // добавление данных в массив
-            array_push($this->var_temp, $answer_arr);
+            array_push($this->arr_posts, $answer_arr);
             // обход записей
             for($j=0; $j<count($answer_arr['response']['items']); $j++){
                 // запись лога об успешном запросе
@@ -122,8 +123,24 @@ class VkMonitoringDay extends Model{
                     // file_put_contents('query_INSERT.txt',$query_INSERT."\n",FILE_APPEND);
                     // запись в БД информации о посте
                     $this->id_connect_DB->createCommand($query_INSERT)->execute();
+                    
+                    
+                    
+                    
                     // проверка attachments к посту
-                    if($answer_arr['response']['attachments'] != null){
+                    if($answer_arr['response']['items'][$j]['attachments'] != null){
+                        
+                        $this->arr_attach["{$this->arr_id_group[$i]['group_id']}_{$answer_arr['response']['items'][$j]['id']}"] = $answer_arr['response']['items'][$j]['attachments'];
+                        
+                        /*
+                        file_put_contents('attach.txt',
+                                  serialize($answer_arr['response']['items'][$j]['attachments'])."\n------------------------------------\n",
+                                  //$answer_arr['response']['items'][$j]['date'],  
+                                  FILE_APPEND
+                                  );
+                        */
+                        
+                        
                         // формирование запроса на добавление информации об attachments к посту
 
                         // запись в БД информации об attachments к посту
@@ -147,7 +164,7 @@ class VkMonitoringDay extends Model{
             
             
         }// for($i=0; $i<count($this->arr_id_group)
-        return $this->var_temp;
+        return $this->arr_posts;
     }
     
     //запись постов в БД

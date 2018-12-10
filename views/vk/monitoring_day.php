@@ -17,8 +17,8 @@ $this->title = ('Мониторинг за день');
     <h4>Результат мониторинга</h4>
     
     <?php /*echo '<pre>'.print_r($id_group,true).'</pre>'*/?>
-    <?php echo '<pre>'.print_r($posts_day,true).'</pre>' /**/?>
-    
+    <?php /*echo '<pre>'.print_r($posts_day,true).'</pre>' */?>
+    <?php echo '<pre>'.print_r($posts_attach,true).'</pre>' /**/?>
     <?php /*echo '<pre>'.print_r($type_group,true).'</pre>'*/?>
     
     <div class="row">

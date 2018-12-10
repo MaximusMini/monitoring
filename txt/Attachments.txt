@@ -1,0 +1,960 @@
+Attachments.txt
+
+
+Array
+(
+    [99725619_131255] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456279380
+                            [album_id] => -7
+                            [owner_id] => -99725619
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c850732/v850732561/5e365/jxHgtfTEAuc.jpg
+                            [photo_130] => https://pp.userapi.com/c850732/v850732561/5e366/GVtZDiqj7kI.jpg
+                            [photo_604] => https://pp.userapi.com/c850732/v850732561/5e367/x2kGE3mv1os.jpg
+                            [photo_807] => https://pp.userapi.com/c850732/v850732561/5e368/jyKqfk40AK8.jpg
+                            [photo_1280] => https://pp.userapi.com/c850732/v850732561/5e369/joICjV-FMiM.jpg
+                            [width] => 1024
+                            [height] => 669
+                            [text] => 
+                            [date] => 1544300559
+                            [post_id] => 131255
+                            [access_key] => 7478aa2ec5de1a25a4
+                        )
+
+                )
+
+        )
+
+    [99725619_131436] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456279438
+                            [album_id] => -7
+                            [owner_id] => -99725619
+                            [user_id] => 100
+                            [photo_75] => https://sun9-28.userapi.com/c635100/v635100933/2e1bb/hxlZR6AvjO4.jpg
+                            [photo_130] => https://sun9-1.userapi.com/c635100/v635100933/2e1bc/ZN892_1FJFA.jpg
+                            [photo_604] => https://sun9-34.userapi.com/c635100/v635100933/2e1bd/6xlZo0CVWPY.jpg
+                            [width] => 551
+                            [height] => 522
+                            [text] => 
+                            [date] => 1544438371
+                            [post_id] => 131436
+                            [access_key] => 0fe949d00f0249f706
+                        )
+
+                )
+
+        )
+
+    [99725619_131435] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456279434
+                            [album_id] => -7
+                            [owner_id] => -99725619
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c846321/v846321711/1049bb/HECuj-qw3ZU.jpg
+                            [photo_130] => https://pp.userapi.com/c846321/v846321711/1049bc/H6J5_0shTRU.jpg
+                            [photo_604] => https://pp.userapi.com/c846321/v846321711/1049bd/bsSCz30qlwM.jpg
+                            [width] => 548
+                            [height] => 314
+                            [text] => 
+                            [date] => 1544438316
+                            [access_key] => 3b95b325f3e6a5cdac
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456279435
+                            [album_id] => -7
+                            [owner_id] => -99725619
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c851336/v851336738/616ff/Sly-Ag17Usk.jpg
+                            [photo_130] => https://pp.userapi.com/c851336/v851336738/61700/ssfrDcnH8eQ.jpg
+                            [photo_604] => https://pp.userapi.com/c851336/v851336738/61701/rzO0jGIqfW4.jpg
+                            [width] => 450
+                            [height] => 600
+                            [text] => 
+                            [date] => 1544438316
+                            [access_key] => d2637fdc10ac322cb9
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456279436
+                            [album_id] => -7
+                            [owner_id] => -99725619
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c831409/v831409293/196ea0/BLXOA3tSO6I.jpg
+                            [photo_130] => https://pp.userapi.com/c831409/v831409293/196ea1/yl2b6-JUB2w.jpg
+                            [photo_604] => https://pp.userapi.com/c831409/v831409293/196ea2/lJS2wivWUTQ.jpg
+                            [width] => 335
+                            [height] => 600
+                            [text] => 
+                            [date] => 1544438316
+                            [access_key] => 6debabea596e1398c8
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456279437
+                            [album_id] => -7
+                            [owner_id] => -99725619
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c852136/v852136862/14253/W-WvwFRUu-g.jpg
+                            [photo_130] => https://pp.userapi.com/c852136/v852136862/14254/oCZToBETBtg.jpg
+                            [photo_604] => https://pp.userapi.com/c852136/v852136862/14255/jsoQrPeIYbA.jpg
+                            [width] => 450
+                            [height] => 600
+                            [text] => 
+                            [date] => 1544438316
+                            [access_key] => a29fafea3c8b1c6391
+                        )
+
+                )
+
+        )
+
+    [97180786_182094] => Array
+        (
+            [0] => Array
+                (
+                    [type] => video
+                    [video] => Array
+                        (
+                            [id] => 456242535
+                            [owner_id] => -97180786
+                            [title] => У Менску адбыўся з'езд абаронцаў жывёлаў | В Минске прошел съезд защитников животных
+                            [duration] => 175
+                            [description] => Французскія валанцёры з фонду мадам Брыжыт Бардо прапанавалі свае паслугі беларускім уладам. https://belsat.eu/?p=929867
+
+Яны гатовыя самі за свае ...
+                            [date] => 1543992353
+                            [comments] => 0
+                            [views] => 78
+                            [photo_130] => https://pp.userapi.com/c851520/v851520186/5df1e/ECV1HkA_Cvk.jpg
+                            [photo_320] => https://pp.userapi.com/c851520/v851520186/5df20/gd4LpVkmn0A.jpg
+                            [photo_800] => https://pp.userapi.com/c851520/v851520186/5df21/tMigugdjr5w.jpg
+                            [photo_640] => https://pp.userapi.com/c851520/v851520186/5df21/tMigugdjr5w.jpg
+                            [access_key] => 02f4090eab81e41e17
+                            [platform] => YouTube
+                            [can_add] => 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://belsat.eu/ru/in-focus/v-minske-proshel-pervyj-vsebelorusskij-sezd-zashhitnikov-zhivotnyh/
+                            [title] => В Минске прошел Первый Всебелорусский съезд защитников животных
+                            [description] => Французские волонтеры из фонда мадам Брижит Бардо предложили свои услуги белорусским властям. Они готовы сами и за свои деньги гуманно решать проблему бездомных животных. Чиновники же ответили, что им нужны только деньги, а они сами разберутся, куда их направить.
+                            [target] => internal
+                            [photo] => Array
+                                (
+                                    [id] => 456256876
+                                    [album_id] => -28
+                                    [owner_id] => 2000029578
+                                    [photo_75] => https://pp.userapi.com/c849028/v849028347/d731e/LNZknKXtM00.jpg
+                                    [photo_130] => https://pp.userapi.com/c849028/v849028347/d731f/H3jv1uJReWg.jpg
+                                    [photo_604] => https://pp.userapi.com/c849028/v849028347/d7320/Z7HFqs4UTHQ.jpg
+                                    [width] => 150
+                                    [height] => 84
+                                    [text] => 
+                                    [date] => 1543992406
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [97180786_183011] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://m.vk.com/@-97180786-zakroites-i-eto-budet-luchshii-podarok-dlya-zhitelei-nashe
+                            [title] => «Закройтесь - и это будет лучший подарок для жителей нашего города»
+                            [caption] => m.vk.com
+                            [description] => Статья
+                            [photo] => Array
+                                (
+                                    [id] => 456277649
+                                    [album_id] => -66
+                                    [owner_id] => -97180786
+                                    [user_id] => 100
+                                    [photo_75] => https://pp.userapi.com/c852124/v852124700/62094/MRVkQ-dPoqw.jpg
+                                    [photo_130] => https://pp.userapi.com/c852124/v852124700/62095/WLFTyxNoUvE.jpg
+                                    [photo_604] => https://pp.userapi.com/c852124/v852124700/62096/SeL2xRK_fM4.jpg
+                                    [photo_807] => https://pp.userapi.com/c852124/v852124700/62097/L30BJd3U744.jpg
+                                    [photo_1280] => https://pp.userapi.com/c852124/v852124700/62098/mww0Shtr8yg.jpg
+                                    [photo_2560] => https://pp.userapi.com/c852124/v852124700/62099/zvhU3ecunGc.jpg
+                                    [width] => 1600
+                                    [height] => 1050
+                                    [text] => 
+                                    [date] => 1544399375
+                                )
+
+                            [button] => Array
+                                (
+                                    [title] => Читать
+                                    [action] => Array
+                                        (
+                                            [type] => open_url
+                                            [url] => https://m.vk.com/@-97180786-zakroites-i-eto-budet-luchshii-podarok-dlya-zhitelei-nashe
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [97180786_183010] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://t.me/x1863/804
+                            [title] => 1863x
+                            [caption] => t.me
+                            [description] => 23 июля 2018, глава МИД РБ Владимир Макей: "Вопросы о заключении соглашений об упрощении визового режима и реадмиссии находятся на столе наших переговоров с Европейским союзом. Не могу сказать, что они будут подписаны буквально завтра-послезавтра." 15 сентября 2018, глава представительства ЕС в Беларуси: "Cейчас проходят переговоры об упрощении визового режима. Уже есть предложения относительно даты проведения следующего раунда. Мы надеемся, что это будет последний". Сегодня, Владимир Макей: "Я уже говорил когда-то, что постоянно возникают какие-то новые моменты, связанные с инициативами наших европейских партнеров. Даже не всех, а отдельных стран из членов Европейского союза. Они постоянно предлагают какие-то вещи, направленные на определенное изменение и даже ужесточение первоначальных вариантов этих соглашений, что для нас не совсем приемлемо». Короче, в этом году подписания договора об упрощении визового режима с ЕС видимо можно не ждать.
+                            [photo] => Array
+                                (
+                                    [id] => 456260704
+                                    [album_id] => -28
+                                    [owner_id] => 2000031672
+                                    [photo_75] => https://pp.userapi.com/c851032/v851032413/64cf6/5itA1uxkCJ8.jpg
+                                    [photo_130] => https://pp.userapi.com/c851032/v851032413/64cf7/eavFzucFfrg.jpg
+                                    [photo_604] => https://pp.userapi.com/c851032/v851032413/64cf8/kvgsEIZYAXI.jpg
+                                    [width] => 150
+                                    [height] => 150
+                                    [text] => 
+                                    [date] => 1544436050
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [30281638_14628] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://udf.by/news/sobytie/184556-posle-tupika-v-eaes-nereshennye-problemy-peremestyat-v-novyy-soyuz-i-dadut-emu-zvuchnoe-imya-citaty-nedeli.html
+                            [title] => «После тупика в ЕАЭС нерешенные проблемы переместят в новый союз и дадут ему звучное имя». Цитаты не
+                            [caption] => udf.by
+                            [description] => Пять любопытных высказываний прошлой недели. Валерия Костюгова, редактор сайта «Наше мнение» и издания «Белорусский ежегодник» 6 декабря в интервью 91.ideaby.org Как только участники интеграции дойдут до тупика в Евразийском экономическом союзе — а осталось не так много, года три, наверное — они все нерешенные проблемы и несогласованные интересы переместят в новый союз, который назовут более высок
+                            [photo] => Array
+                                (
+                                    [id] => 456256370
+                                    [album_id] => -25
+                                    [owner_id] => 2000032153
+                                    [photo_75] => 
+                                    [photo_130] => 
+                                    [photo_604] => 
+                                    [text] => 
+                                    [date] => 1544431495
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [30281638_14620] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://udf.by/news/sobytie/184379-kartinka-smeshnaya-a-vot-situaciya-strashnaya-35-tvitov-pro-ekonomiku.html
+                            [title] => «Картинка смешная, а вот ситуация страшная». 35 твитов про экономику
+                            [caption] => udf.by
+                            [description] => 
+                            [photo] => Array
+                                (
+                                    [id] => 456256284
+                                    [album_id] => -28
+                                    [owner_id] => 2000031821
+                                    [photo_75] => https://pp.userapi.com/c852024/v852024872/648ba/p45yIBrxs_w.jpg
+                                    [photo_130] => https://pp.userapi.com/c852024/v852024872/648bb/VP_t05x4DOk.jpg
+                                    [photo_604] => https://pp.userapi.com/c852024/v852024872/648bc/opCkYXSow9Q.jpg
+                                    [width] => 150
+                                    [height] => 80
+                                    [text] => 
+                                    [date] => 1544349062
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [30281638_14605] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://udf.by/news/main_news/184460-chem-uspel-otmetitsya-brsm-posle-togo-kak-novyy-glava-zahotel-slomat-stereotipy.html
+                            [title] => Чем успел отметиться БРСМ, после того, как новый глава захотел "сломать стереотипы"
+                            [caption] => udf.by
+                            [description] => Фото: president.gov.by Спойлер: в основном скандалами. В мае новым главой БРСМа стал 31-летний Дмитрий Воронюк. Уроженец Ташкента вместе с родителями вернулся на родину при переходе в 9-й класс школы. Со студенческих лет он делал карьеру в БРСМ. После избрания руководителем Воронюк заявил, что «хочет сломать стереотипы и сделать организацию по-настоящему молодежной, современной и нужной каждому».
+                            [photo] => Array
+                                (
+                                    [id] => 456259589
+                                    [album_id] => -27
+                                    [owner_id] => 2000030806
+                                    [photo_75] => 
+                                    [photo_130] => 
+                                    [photo_604] => 
+                                    [text] => 
+                                    [date] => 1544212096
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [76296871_25400] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://m.vk.com/@-76296871-karyagin-vot-pochemu-my-dorogaya-strana
+                            [title] => Карягин: «Вот почему мы дорогая страна»
+                            [caption] => m.vk.com
+                            [description] => Статья
+                            [photo] => Array
+                                (
+                                    [id] => 456251535
+                                    [album_id] => -66
+                                    [owner_id] => -76296871
+                                    [user_id] => 100
+                                    [photo_75] => https://pp.userapi.com/c851424/v851424398/61223/cM82a_rMXG0.jpg
+                                    [photo_130] => https://pp.userapi.com/c851424/v851424398/61224/kHc_m_P76GI.jpg
+                                    [photo_604] => https://pp.userapi.com/c851424/v851424398/61225/SQHOUJf4crA.jpg
+                                    [photo_807] => https://pp.userapi.com/c851424/v851424398/61226/QYfwgut8DoI.jpg
+                                    [width] => 800
+                                    [height] => 542
+                                    [text] => 
+                                    [date] => 1544423376
+                                )
+
+                            [button] => Array
+                                (
+                                    [title] => Читать
+                                    [action] => Array
+                                        (
+                                            [type] => open_url
+                                            [url] => https://m.vk.com/@-76296871-karyagin-vot-pochemu-my-dorogaya-strana
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [76296871_25402] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://m.vk.com/@-76296871-sudalenko-esli-delo-korzhicha-lyazhet-v-arhiv-to-skoro-vse-v
+                            [title] => Судаленко: «Если дело Коржича ляжет в архив, то скоро все вернется на круги своя»
+                            [caption] => m.vk.com
+                            [description] => Статья
+                            [photo] => Array
+                                (
+                                    [id] => 456251538
+                                    [album_id] => -66
+                                    [owner_id] => -76296871
+                                    [user_id] => 100
+                                    [photo_75] => https://pp.userapi.com/c850224/v850224589/8a2dd/SFbULitsXc0.jpg
+                                    [photo_130] => https://pp.userapi.com/c850224/v850224589/8a2de/NPhPk9G2Loo.jpg
+                                    [photo_604] => https://pp.userapi.com/c850224/v850224589/8a2df/hapfgkObimI.jpg
+                                    [photo_807] => https://pp.userapi.com/c850224/v850224589/8a2e0/kRsGiHk5Ej8.jpg
+                                    [photo_1280] => https://pp.userapi.com/c850224/v850224589/8a2e1/3U9cZxNUH3s.jpg
+                                    [width] => 1200
+                                    [height] => 800
+                                    [text] => 
+                                    [date] => 1544428241
+                                )
+
+                            [button] => Array
+                                (
+                                    [title] => Читать
+                                    [action] => Array
+                                        (
+                                            [type] => open_url
+                                            [url] => https://m.vk.com/@-76296871-sudalenko-esli-delo-korzhicha-lyazhet-v-arhiv-to-skoro-vse-v
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [76296871_25392] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456251534
+                            [album_id] => -7
+                            [owner_id] => -76296871
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c845418/v845418766/1503b9/enCagTJ1xu4.jpg
+                            [photo_130] => https://pp.userapi.com/c845418/v845418766/1503ba/Y2l1_tangDM.jpg
+                            [photo_604] => https://pp.userapi.com/c845418/v845418766/1503bb/CmGCCvvYRRY.jpg
+                            [photo_807] => https://pp.userapi.com/c845418/v845418766/1503bc/gcJzL-Dj94Q.jpg
+                            [photo_1280] => https://pp.userapi.com/c845418/v845418766/1503bd/P-_zMfXdTwY.jpg
+                            [width] => 960
+                            [height] => 635
+                            [text] => 
+                            [date] => 1544194355
+                            [post_id] => 25392
+                            [access_key] => 517103dc32f535fa53
+                        )
+
+                )
+
+        )
+
+    [165278869_2765] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456240691
+                            [album_id] => -7
+                            [owner_id] => -165278869
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c850024/v850024754/dc7a3/2heGjBkOd0M.jpg
+                            [photo_130] => https://pp.userapi.com/c850024/v850024754/dc7a4/kWZY1kizaKU.jpg
+                            [photo_604] => https://pp.userapi.com/c850024/v850024754/dc7a5/iLP1AAhjji4.jpg
+                            [photo_807] => https://pp.userapi.com/c850024/v850024754/dc7a6/QBBXXKC7yek.jpg
+                            [photo_1280] => https://pp.userapi.com/c850024/v850024754/dc7a7/cLJ82Fj_UYE.jpg
+                            [width] => 1280
+                            [height] => 720
+                            [text] => 
+                            [date] => 1544397109
+                            [access_key] => 41d535ec0e6c99c844
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [type] => video
+                    [video] => Array
+                        (
+                            [id] => 456239118
+                            [owner_id] => -165278869
+                            [title] => Sic transit gloria mundi - "Формула любви"
+                            [duration] => 6
+                            [description] => 
+                            [date] => 1544399199
+                            [comments] => 0
+                            [views] => 29
+                            [width] => 982
+                            [height] => 720
+                            [photo_130] => https://pp.userapi.com/c848624/v848624754/db2fb/4qFhvL0qAR4.jpg
+                            [photo_320] => https://pp.userapi.com/c848624/v848624754/db2f9/VUsWjXOZBfQ.jpg
+                            [photo_800] => https://pp.userapi.com/c848624/v848624754/db2f8/96GYDf0Qa6Y.jpg
+                            [photo_1280] => https://pp.userapi.com/c848624/v848624754/db2f7/UzeNM01DcvQ.jpg
+                            [access_key] => 2841a297fb534a5fd7
+                            [repeat] => 1
+                            [first_frame_1280] => https://pp.userapi.com/c850020/v850020754/cef9b/0_USCMAUJJs.jpg
+                            [first_frame_800] => https://pp.userapi.com/c850020/v850020754/cef9c/nLr4jIubqcg.jpg
+                            [first_frame_320] => https://pp.userapi.com/c850020/v850020754/cef9d/VnpmzQ_ezCQ.jpg
+                            [first_frame_160] => https://pp.userapi.com/c850020/v850020754/cef9e/a88cwjHzSzs.jpg
+                            [first_frame_130] => https://pp.userapi.com/c850020/v850020754/cef9f/SiC3qHBkGMM.jpg
+                            [can_add] => 1
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://t.me/bagramyan26/4875
+                            [title] => Баграмян 26
+                            [description] => 
+                            [target] => internal
+                        )
+
+                )
+
+        )
+
+    [165278869_2763] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://t.me/kompr/2591
+                            [title] => Компромат 2.0
+                            [caption] => t.me
+                            [description] => 
+                        )
+
+                )
+
+        )
+
+    [56765622_1500653] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456298975
+                            [album_id] => -7
+                            [owner_id] => -56765622
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c851432/v851432577/60ff6/SwkIbUbnQ_c.jpg
+                            [photo_130] => https://pp.userapi.com/c851432/v851432577/60ff7/4CMQ24WlRlc.jpg
+                            [photo_604] => https://pp.userapi.com/c851432/v851432577/60ff8/fon7GUWbvBw.jpg
+                            [photo_807] => https://pp.userapi.com/c851432/v851432577/60ff9/u8R7wOQ8f-A.jpg
+                            [width] => 800
+                            [height] => 534
+                            [text] => 
+                            [date] => 1544261759
+                            [access_key] => 1fe686ce712778daab
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456298976
+                            [album_id] => -7
+                            [owner_id] => -56765622
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c851432/v851432577/60fee/AxBiiGsSRbE.jpg
+                            [photo_130] => https://pp.userapi.com/c851432/v851432577/60fef/h8xMVMyywh0.jpg
+                            [photo_604] => https://pp.userapi.com/c851432/v851432577/60ff0/lpsiezsl1_Q.jpg
+                            [photo_807] => https://pp.userapi.com/c851432/v851432577/60ff1/HNXZRwIXL7I.jpg
+                            [width] => 800
+                            [height] => 400
+                            [text] => 
+                            [date] => 1544261759
+                            [access_key] => 3469d32fc06e7a4c25
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456298977
+                            [album_id] => -7
+                            [owner_id] => -56765622
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c851432/v851432577/60ffe/Q99Y7lX_Rws.jpg
+                            [photo_130] => https://pp.userapi.com/c851432/v851432577/60fff/VeVLHnQU030.jpg
+                            [photo_604] => https://pp.userapi.com/c851432/v851432577/61000/H-cF4yahNdQ.jpg
+                            [photo_807] => https://pp.userapi.com/c851432/v851432577/61001/qP3UH0_v5Uo.jpg
+                            [width] => 800
+                            [height] => 533
+                            [text] => 
+                            [date] => 1544261759
+                            [access_key] => 30a33116d7b34e4b72
+                        )
+
+                )
+
+        )
+
+    [56765622_1501211] => Array
+        (
+            [0] => Array
+                (
+                    [type] => video
+                    [video] => Array
+                        (
+                            [id] => 456239111
+                            [owner_id] => 86657993
+                            [title] => «Дыктатура – гаўно»
+                            [duration] => 140
+                            [description] => 
+                            [date] => 1513526697
+                            [comments] => 0
+                            [views] => 11716
+                            [width] => 480
+                            [height] => 360
+                            [photo_130] => https://pp.userapi.com/c841334/v841334552/4e5d7/biNX5oHZoGk.jpg
+                            [photo_320] => https://pp.userapi.com/c841334/v841334552/4e5d5/sbLnk22Wt5s.jpg
+                            [photo_800] => https://pp.userapi.com/c841334/v841334552/4e5d4/r-JXyVGSfKM.jpg
+                            [access_key] => d16ab409cd2590014f
+                            [first_frame_320] => https://pp.userapi.com/c840025/v840025552/28708/v-xMGa1TIic.jpg
+                            [first_frame_160] => https://pp.userapi.com/c840025/v840025552/28709/3Q5-dG8WU-A.jpg
+                            [first_frame_130] => https://pp.userapi.com/c840025/v840025552/2870a/IF0ZWip3P08.jpg
+                            [first_frame_800] => https://pp.userapi.com/c840025/v840025552/28707/glaWb9XA3Ts.jpg
+                            [can_add] => 1
+                        )
+
+                )
+
+        )
+
+    [56765622_1501205] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456299037
+                            [album_id] => -7
+                            [owner_id] => -56765622
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c850620/v850620403/61f37/vh0VQ1U3AIc.jpg
+                            [photo_130] => https://pp.userapi.com/c850620/v850620403/61f38/VRwds83Q-Gc.jpg
+                            [photo_604] => https://pp.userapi.com/c850620/v850620403/61f39/JPy8G5EcQzY.jpg
+                            [photo_807] => https://pp.userapi.com/c850620/v850620403/61f3a/vHG8TCe1NCo.jpg
+                            [width] => 800
+                            [height] => 533
+                            [text] => 
+                            [date] => 1544437355
+                            [access_key] => fedcd6281a8484ac8e
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456299038
+                            [album_id] => -7
+                            [owner_id] => -56765622
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c850620/v850620403/61f3f/vwYVnf33iv4.jpg
+                            [photo_130] => https://pp.userapi.com/c850620/v850620403/61f40/F3RfN-r-Cw4.jpg
+                            [photo_604] => https://pp.userapi.com/c850620/v850620403/61f41/qUNy_NP0aXI.jpg
+                            [photo_807] => https://pp.userapi.com/c850620/v850620403/61f42/RHx4khmwsM0.jpg
+                            [width] => 800
+                            [height] => 533
+                            [text] => 
+                            [date] => 1544437355
+                            [access_key] => 185aafb28b9cfefc4d
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456299039
+                            [album_id] => -7
+                            [owner_id] => -56765622
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c850620/v850620403/61f58/ZEI_dZMn4UU.jpg
+                            [photo_130] => https://pp.userapi.com/c850620/v850620403/61f59/qFrawM4n2p8.jpg
+                            [photo_604] => https://pp.userapi.com/c850620/v850620403/61f5a/OKLblEnG7sg.jpg
+                            [photo_807] => https://pp.userapi.com/c850620/v850620403/61f5b/0DG2-D4ltkw.jpg
+                            [width] => 800
+                            [height] => 533
+                            [text] => 
+                            [date] => 1544437355
+                            [access_key] => 20a3db1ab960243c03
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456299040
+                            [album_id] => -7
+                            [owner_id] => -56765622
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c850620/v850620403/61f50/-6GJ98OQb1U.jpg
+                            [photo_130] => https://pp.userapi.com/c850620/v850620403/61f51/VNGLwdTDmBI.jpg
+                            [photo_604] => https://pp.userapi.com/c850620/v850620403/61f52/A76DtSRMM0w.jpg
+                            [photo_807] => https://pp.userapi.com/c850620/v850620403/61f53/QICC8-p3_0s.jpg
+                            [width] => 800
+                            [height] => 533
+                            [text] => 
+                            [date] => 1544437355
+                            [access_key] => ca0171f50ab13335cf
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456299041
+                            [album_id] => -7
+                            [owner_id] => -56765622
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c850620/v850620403/61f47/lqcr0yGMFF8.jpg
+                            [photo_130] => https://pp.userapi.com/c850620/v850620403/61f48/T35srzQHXLQ.jpg
+                            [photo_604] => https://pp.userapi.com/c850620/v850620403/61f49/2vl0o8KaKdc.jpg
+                            [photo_807] => https://pp.userapi.com/c850620/v850620403/61f4a/ilQjKLZpAII.jpg
+                            [photo_1280] => https://pp.userapi.com/c850620/v850620403/61f4b/C_6wmg-25DA.jpg
+                            [width] => 1200
+                            [height] => 800
+                            [text] => 
+                            [date] => 1544437355
+                            [access_key] => c43dd5c361f07ebabe
+                        )
+
+                )
+
+        )
+
+    [18364543_12420] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => http://ucpb.org/news/partynews/stante-dejstvuyushchimi-litsami
+                            [title] => Станьте действующими лицами!
+                            [caption] => ucpb.org
+                            [description] => Если Вы чувствуете свою ответственность за нашу страну, Беларусь, то знайте, что без Вашего участия не обойтись
+                            [photo] => Array
+                                (
+                                    [id] => 456241522
+                                    [album_id] => -2
+                                    [owner_id] => 100
+                                    [photo_75] => https://pp.userapi.com/c850636/v850636363/35c16/z1gUuD1SwZk.jpg
+                                    [photo_130] => https://pp.userapi.com/c850636/v850636363/35c17/4teKRJ_uav8.jpg
+                                    [photo_604] => https://pp.userapi.com/c850636/v850636363/35c18/X5fttypOf8E.jpg
+                                    [width] => 150
+                                    [height] => 100
+                                    [text] => 
+                                    [date] => 1541076619
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [270028_3007] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 294012372
+                            [album_id] => -7
+                            [owner_id] => -270028
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/wMLxrwgN8t0tvuhHEA95O4QqGgS01puZAPsD6g/PVyuk6mMhFw.jpg
+                            [photo_130] => https://pp.userapi.com/Lw8wxvCEWwi8vBt4sZLjvaaAnoQ7xEBVWyeocA/7rvfthg3_TY.jpg
+                            [photo_604] => https://pp.userapi.com/RwEu7ukeMUsQ919r7JEM2fMemvxi9ikp8PFUGw/Id5HLsvajHE.jpg
+                            [width] => 340
+                            [height] => 255
+                            [text] => 
+                            [date] => 1354559894
+                            [post_id] => 3007
+                            [access_key] => 0f4f424d17679cbd5f
+                        )
+
+                )
+
+        )
+
+    [270028_7988] => Array
+        (
+            [0] => Array
+                (
+                    [type] => link
+                    [link] => Array
+                        (
+                            [url] => https://ria.ru/religion/20181103/1532067691.html
+                            [title] => Операция "Патриарх". Как ЦРУ и КГБ боролись за влияние на христианский мир
+                            [caption] => ria.ru
+                            [description] => Исповедь, молитва и… прослушка. В годы холодной войны СССР и США особенно изощренно боролись за влияние на умы, в том числе и среди верующих. Для этого внедряли своих людей... РИА Новости, 03.11.2018
+                            [photo] => Array
+                                (
+                                    [id] => 456239125
+                                    [album_id] => -2
+                                    [owner_id] => 100
+                                    [photo_75] => https://pp.userapi.com/c849028/v849028549/aeb23/MApSBNsRs-A.jpg
+                                    [photo_130] => https://pp.userapi.com/c849028/v849028549/aeb24/0k2X0443cYc.jpg
+                                    [photo_604] => https://pp.userapi.com/c849028/v849028549/aeb25/9aahI0h2brc.jpg
+                                    [width] => 150
+                                    [height] => 85
+                                    [text] => 
+                                    [date] => 1541242172
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [22639447_535899] => Array
+        (
+            [0] => Array
+                (
+                    [type] => video
+                    [video] => Array
+                        (
+                            [id] => 456257657
+                            [owner_id] => -22639447
+                            [title] => Беларус Даниил Ляшук из батальона Торнадо: Прокурор из #ОПГпорошенко избивал нас в наручниках до крови с криками: "Ну что, суки бандеровские, довоевались?"
+                            [duration] => 218
+                            [description] => https://www.facebook.com/YuriyKarmazin/ - АВТОР
+                            [date] => 1537293214
+                            [comments] => 0
+                            [views] => 287
+                            [photo_130] => https://pp.userapi.com/c850436/v850436083/6aa9/CTBmhjnewAY.jpg
+                            [photo_320] => https://pp.userapi.com/c850436/v850436083/6aab/XP1hp1nDcHM.jpg
+                            [photo_800] => https://pp.userapi.com/c850436/v850436083/6aac/nJnpRBxuQNU.jpg
+                            [access_key] => 794610036ba6df4284
+                            [platform] => YouTube
+                            [can_add] => 1
+                        )
+
+                )
+
+        )
+
+    [22639447_540526] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456261473
+                            [album_id] => -7
+                            [owner_id] => -22639447
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c848528/v848528032/d6604/scoJofXN1V8.jpg
+                            [photo_130] => https://pp.userapi.com/c848528/v848528032/d6605/fKElBbhpGiY.jpg
+                            [photo_604] => https://pp.userapi.com/c848528/v848528032/d6606/xiQn6F81r7M.jpg
+                            [width] => 360
+                            [height] => 230
+                            [text] => 
+                            [date] => 1544437871
+                            [post_id] => 540526
+                            [access_key] => f76bf993f997dabb3f
+                        )
+
+                )
+
+        )
+
+    [22639447_540525] => Array
+        (
+            [0] => Array
+                (
+                    [type] => photo
+                    [photo] => Array
+                        (
+                            [id] => 456261472
+                            [album_id] => -7
+                            [owner_id] => -22639447
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c845324/v845324032/150dee/Pc9aS1gHySA.jpg
+                            [photo_130] => https://pp.userapi.com/c845324/v845324032/150def/gkHiK7eLkEA.jpg
+                            [photo_604] => https://pp.userapi.com/c845324/v845324032/150df0/N-HLsAaqwjw.jpg
+                            [width] => 360
+                            [height] => 230
+                            [text] => 
+                            [date] => 1544437210
+                            [post_id] => 540525
+                            [access_key] => 9ea025a1ff5b1d244c
+                        )
+
+                )
+
+        )
+
+)

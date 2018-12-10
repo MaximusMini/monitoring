@@ -334,7 +334,9 @@ class VkController extends Controller
             // вызов главной функции модели
             $object_day->main();
             // посты
-            $posts_day = $object_day->var_temp;
+            $posts_day = $object_day->arr_posts;
+            // attachments
+            $posts_attach = $object_day->arr_attach; //arr_attach
             // ответ
             $answer = $object_day->answer;
             
@@ -342,6 +344,7 @@ class VkController extends Controller
                                                    'id_group'=>$id_group,
                                                    'posts_day'=>$posts_day,
                                                    'answer'=>$answer,
+                                                   'posts_attach'=>$posts_attach,
                                                    'type_group'=>$object_day->arr_type_group // массив с типом группы (сообщества)
                                                   ]);   
         }else{
