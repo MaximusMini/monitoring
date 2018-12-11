@@ -18,6 +18,8 @@ class VkMonitoringDay extends Model{
     public $answer;    
     
     
+    public $id_group_post;              // id поста, по которому пост идентифицируется в БД
+    
      // конструктор класса
     public function __construct(){
         // создание подключения к БД
@@ -71,7 +73,14 @@ class VkMonitoringDay extends Model{
         $this->id_connect_DB->createCommand($query_TRUNCATE)->execute();
         for($i=0; $i<count($this->arr_id_group); $i++){
             // запрос 
-            $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=3&offset=0&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
+            $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=20&offset=0&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
+            /*
+            запись запроса в файл
+            */
+             file_put_contents('request_api.txt',
+                                  "https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=3&offset=0&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b"."\n------------------------------------\n", 
+                                  FILE_APPEND
+                                  );
             // преобразование ответа в массив
             $answer_arr = json_decode($this->answer,true);
             // проверка наличия ошибки при запросе'💪🏻💪🏻'
@@ -108,9 +117,11 @@ class VkMonitoringDay extends Model{
                     // проверка поста на закрепленность
                     if($answer_arr['response']['items'][$j]['is_pinned'] == null){
                         $is_pinned = 0;}else{$is_pinned = 1;}
+                    // id поста, по которому пост идентифицируется в БД
+                    $this->id_group_post = $this->arr_id_group[$i]['group_id'].'_'.$answer_arr['response']['items'][$j]['id'];
                     // формирование запроса на добавление информации о посте
                     $query_INSERT="INSERT INTO vk_posts(id_group_post, id_post, id_group, is_pinned, count, date_unix, date_post, time_post, text_post) VALUES (
-                            '{$this->arr_id_group[$i]['group_id']}_{$answer_arr['response']['items'][$j]['id']}',
+                            '{$this->id_group_post}',
                             {$answer_arr['response']['items'][$j]['id']},
                             {$this->arr_id_group[$i]['group_id']},
                             {$is_pinned},
@@ -132,13 +143,23 @@ class VkMonitoringDay extends Model{
                         
                         $this->arr_attach["{$this->arr_id_group[$i]['group_id']}_{$answer_arr['response']['items'][$j]['id']}"] = $answer_arr['response']['items'][$j]['attachments'];
                         
-                        /*
+                        
                         file_put_contents('attach.txt',
                                   serialize($answer_arr['response']['items'][$j]['attachments'])."\n------------------------------------\n",
                                   //$answer_arr['response']['items'][$j]['date'],  
                                   FILE_APPEND
                                   );
-                        */
+                        /**/
+                        
+                        
+                        foreach($answer_arr['response']['items'][$j]['attachments'] as $attach){
+                            // определить тип attachments и применить соответствующую функцию
+                            if($attach['type'] == 'photo'){
+                                $this->insert_attach_photo($attach['photo'], $this->id_group_post);        
+                            }  
+                        }
+                        
+                        /**/
                         
                         
                         // формирование запроса на добавление информации об attachments к посту
@@ -149,19 +170,6 @@ class VkMonitoringDay extends Model{
                 }    
             }
             
-                
-
-            
-           
-            
-            /*
-            type                            $answer_arr['response']['attachments']['type']
-            
-            
-
-            
-            */
-            
             
         }// for($i=0; $i<count($this->arr_id_group)
         return $this->arr_posts;
@@ -169,6 +177,34 @@ class VkMonitoringDay extends Model{
     
     //запись постов в БД
     function insert_posts_DB(){
+        
+    }
+    
+    // запись в БД информации об attachments type => photo
+    function insert_attach_photo($arr_photo, $id_group_post){
+       
+                        file_put_contents('attach_photo.txt',
+                                  //serialize($arr_photo)."\n------------------------------------\n",
+                                  $arr_photo['photo_604']."\n------------------------------------\n", 
+                                  FILE_APPEND
+                                  );
+                         /**/
+        
+        // формирование запроса на добавление информации об attachments к посту
+        $query_INSERT="INSERT INTO `vk_attachments` (`id_group_post`, `id_photo`, `album_id`, `owner_id`, `photo_1280`, `date_unix`, `date`, `time`)                 VALUES(
+                        '{$id_group_post}',
+                        {$arr_photo['id']},
+                        {$arr_photo['album_id']},
+                        {$arr_photo['owner_id']},
+                        '".$arr_photo['photo_604']."',
+                        {$arr_photo['date']},
+                        '".date('d.m.Y',$arr_photo['date'])."',
+                        '".date('G:i',$arr_photo['date'])."'
+                        )";
+        
+        
+       // запись в БД
+        $this->id_connect_DB->createCommand($query_INSERT)->execute(); 
         
     }
     

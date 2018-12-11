@@ -4062,3 +4062,1703 @@ success method:wall.get 10.12.2018 14:13:39 -|- id_group=22639447 id_post=540526
 SELECT * FROM vk_posts WHERE id_group_post='22639447_540526'
 success method:wall.get 10.12.2018 14:13:39 -|- id_group=22639447 id_post=540525
 SELECT * FROM vk_posts WHERE id_group_post='22639447_540525'
+success method:wall.get 11.12.2018 13:11:34 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=99725619 id_post=131548
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131548'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=99725619 id_post=131543
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131543'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=97180786 id_post=183179
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183179'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=97180786 id_post=183173
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183173'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=56765622 id_post=1501520
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501520'
+success method:wall.get 11.12.2018 13:11:35 -|- id_group=56765622 id_post=1501505
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501505'
+success method:wall.get 11.12.2018 13:11:36 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 13:11:36 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 13:11:36 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 13:11:36 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 13:11:36 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 13:11:36 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 13:11:36 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 13:11:36 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 13:11:36 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=99725619 id_post=131548
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131548'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=99725619 id_post=131543
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131543'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=97180786 id_post=183179
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183179'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=97180786 id_post=183173
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183173'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 13:19:25 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=56765622 id_post=1501520
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501520'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=56765622 id_post=1501505
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501505'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 13:19:26 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=99725619 id_post=131548
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131548'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=99725619 id_post=131543
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131543'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=97180786 id_post=183179
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183179'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=97180786 id_post=183173
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183173'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 13:24:46 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=56765622 id_post=1501520
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501520'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=56765622 id_post=1501505
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501505'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 13:24:47 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 13:36:25 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 13:36:42 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 13:36:42 -|- id_group=99725619 id_post=131560
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131560'
+success method:wall.get 11.12.2018 13:36:42 -|- id_group=99725619 id_post=131548
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131548'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=97180786 id_post=183179
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183179'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 13:36:43 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=56765622 id_post=1501520
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501520'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=56765622 id_post=1501505
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501505'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 13:36:44 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:06:29 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:06:48 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:06:48 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:09:51 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:09:51 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:10:54 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:12:56 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:12:57 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:13:04 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:13:05 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:13:05 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:13:11 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:13:12 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:13:12 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:13:12 -|- id_group=56765622 id_post=1501520
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501520'
+success method:wall.get 11.12.2018 14:13:12 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:13:12 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:13:12 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:13:12 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:14:56 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=56765622 id_post=1501520
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501520'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:14:57 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:15:33 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=56765622 id_post=1501520
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501520'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:15:34 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:16:00 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:16:52 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:16:52 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:18:30 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:18:30 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:18:30 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:20:13 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:23:49 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:23:50 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:23:50 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:23:50 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:23:50 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:23:50 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:23:50 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:23:50 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:23:50 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:23:50 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:25:07 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:25:27 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:25:40 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:25:41 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:28:08 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:28:56 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:29:06 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:29:07 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:29:52 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:29:53 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:30:56 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:32:10 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:33:49 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:34:03 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:34:04 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:35:48 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:35:49 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:36:08 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:36:09 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:36:42 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:36:43 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:38:28 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:38:58 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:38:59 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:38:59 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:39:17 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:39:18 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:39:18 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:39:18 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:39:18 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:39:18 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:39:18 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:39:18 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:39:18 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:39:18 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:39:19 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:39:19 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:39:19 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:39:19 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:39:19 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:39:19 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:39:41 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:39:55 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:39:56 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:44:44 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=22639447 id_post=540594
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540594'
+success method:wall.get 11.12.2018 14:44:45 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=99725619 id_post=131574
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131574'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:45:39 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=22639447 id_post=540594
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540594'
+success method:wall.get 11.12.2018 14:45:40 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=99725619 id_post=131577
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131577'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=99725619 id_post=131576
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131576'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:56:47 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:56:48 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:56:48 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:56:48 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:56:48 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:56:48 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:56:48 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:56:48 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:56:48 -|- id_group=22639447 id_post=540594
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540594'
+success method:wall.get 11.12.2018 14:56:48 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131544
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131544'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131577
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131577'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131576
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131576'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131574
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131574'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131567
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131567'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131564
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131564'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131563
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131563'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131561
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131561'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131560
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131560'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131548
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131548'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131543
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131543'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131542
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131542'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131540
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131540'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131532
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131532'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131531
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131531'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131530
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131530'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131525
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131525'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131521
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131521'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131519
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131519'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=99725619 id_post=131518
+SELECT * FROM vk_posts WHERE id_group_post='99725619_131518'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=182094
+SELECT * FROM vk_posts WHERE id_group_post='97180786_182094'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183184
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183184'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183183
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183183'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183182
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183182'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183179
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183179'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183173
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183173'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183170
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183170'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183165
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183165'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183157
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183157'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183152
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183152'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183151
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183151'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183149
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183149'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183145
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183145'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183140
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183140'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183136
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183136'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183105
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183105'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183102
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183102'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183096
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183096'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183092
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183092'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=97180786 id_post=183086
+SELECT * FROM vk_posts WHERE id_group_post='97180786_183086'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14628
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14628'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14631
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14631'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14620
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14620'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14605
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14605'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14595
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14595'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14592
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14592'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14580
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14580'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14572
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14572'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14571
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14571'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14565
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14565'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14562
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14562'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14557
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14557'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14554
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14554'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14549
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14549'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14548
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14548'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14545
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14545'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14537
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14537'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14536
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14536'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14535
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14535'
+success method:wall.get 11.12.2018 14:57:20 -|- id_group=30281638 id_post=14530
+SELECT * FROM vk_posts WHERE id_group_post='30281638_14530'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25406
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25406'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25405
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25405'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25404
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25404'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25403
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25403'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25402
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25402'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25400
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25400'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25392
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25392'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25390
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25390'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25389
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25389'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25388
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25388'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25387
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25387'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25385
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25385'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25384
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25384'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25382
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25382'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25381
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25381'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25380
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25380'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25378
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25378'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25377
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25377'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25376
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25376'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=76296871 id_post=25375
+SELECT * FROM vk_posts WHERE id_group_post='76296871_25375'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2789
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2789'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2788
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2788'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2787
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2787'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2777
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2777'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2776
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2776'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2774
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2774'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2773
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2773'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2771
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2771'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2768
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2768'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2767
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2767'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2765
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2765'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2764
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2764'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2763
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2763'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2762
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2762'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2750
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2750'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2749
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2749'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2747
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2747'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2746
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2746'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2741
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2741'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=165278869 id_post=2740
+SELECT * FROM vk_posts WHERE id_group_post='165278869_2740'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501442
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501442'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501558
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501558'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501537
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501537'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501520
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501520'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501476
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501476'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501452
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501452'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501438
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501438'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501411
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501411'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501402
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501402'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501377
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501377'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501318
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501318'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501281
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501281'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501251
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501251'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501248
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501248'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501236
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501236'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501223
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501223'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501211
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501211'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501205
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501205'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501190
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501190'
+success method:wall.get 11.12.2018 14:57:21 -|- id_group=56765622 id_post=1501169
+SELECT * FROM vk_posts WHERE id_group_post='56765622_1501169'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12420
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12420'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12425
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12425'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12424
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12424'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12422
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12422'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12419
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12419'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12418
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12418'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12417
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12417'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12416
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12416'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12415
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12415'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12414
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12414'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12413
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12413'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12412
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12412'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12411
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12411'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12410
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12410'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12409
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12409'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12407
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12407'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12403
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12403'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12402
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12402'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12401
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12401'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=18364543 id_post=12400
+SELECT * FROM vk_posts WHERE id_group_post='18364543_12400'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=3007
+SELECT * FROM vk_posts WHERE id_group_post='270028_3007'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7988
+SELECT * FROM vk_posts WHERE id_group_post='270028_7988'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7926
+SELECT * FROM vk_posts WHERE id_group_post='270028_7926'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7854
+SELECT * FROM vk_posts WHERE id_group_post='270028_7854'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7850
+SELECT * FROM vk_posts WHERE id_group_post='270028_7850'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7828
+SELECT * FROM vk_posts WHERE id_group_post='270028_7828'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7812
+SELECT * FROM vk_posts WHERE id_group_post='270028_7812'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7807
+SELECT * FROM vk_posts WHERE id_group_post='270028_7807'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7802
+SELECT * FROM vk_posts WHERE id_group_post='270028_7802'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7767
+SELECT * FROM vk_posts WHERE id_group_post='270028_7767'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7766
+SELECT * FROM vk_posts WHERE id_group_post='270028_7766'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7754
+SELECT * FROM vk_posts WHERE id_group_post='270028_7754'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7663
+SELECT * FROM vk_posts WHERE id_group_post='270028_7663'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7575
+SELECT * FROM vk_posts WHERE id_group_post='270028_7575'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7537
+SELECT * FROM vk_posts WHERE id_group_post='270028_7537'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7527
+SELECT * FROM vk_posts WHERE id_group_post='270028_7527'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7501
+SELECT * FROM vk_posts WHERE id_group_post='270028_7501'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7490
+SELECT * FROM vk_posts WHERE id_group_post='270028_7490'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7479
+SELECT * FROM vk_posts WHERE id_group_post='270028_7479'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=270028 id_post=7467
+SELECT * FROM vk_posts WHERE id_group_post='270028_7467'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=535899
+SELECT * FROM vk_posts WHERE id_group_post='22639447_535899'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540594
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540594'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540593
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540593'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540592
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540592'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540572
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540572'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540571
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540571'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540570
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540570'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540568
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540568'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540566
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540566'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540560
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540560'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540559
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540559'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540556
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540556'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540554
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540554'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540549
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540549'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540548
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540548'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540545
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540545'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540541
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540541'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540540
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540540'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540539
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540539'
+success method:wall.get 11.12.2018 14:57:22 -|- id_group=22639447 id_post=540538
+SELECT * FROM vk_posts WHERE id_group_post='22639447_540538'

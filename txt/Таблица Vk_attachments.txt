@@ -1,3 +1,83 @@
 
 Vk_attachments - таблица для хранения attachments к постам VK
+
+
+	photo
+	[photo] => Array
+                        (
+                            [id] => 456279380
+                            [album_id] => -7
+                            [owner_id] => -99725619
+                            [user_id] => 100
+                            [photo_75] => https://pp.userapi.com/c850732/v850732561/5e365/jxHgtfTEAuc.jpg
+                            [photo_130] => https://pp.userapi.com/c850732/v850732561/5e366/GVtZDiqj7kI.jpg
+                            [photo_604] => https://pp.userapi.com/c850732/v850732561/5e367/x2kGE3mv1os.jpg
+                            [photo_807] => https://pp.userapi.com/c850732/v850732561/5e368/jyKqfk40AK8.jpg
+                            [photo_1280] => https://pp.userapi.com/c850732/v850732561/5e369/joICjV-FMiM.jpg
+                            [width] => 1024
+                            [height] => 669
+                            [text] => 
+                            [date] => 1544300559
+                            [post_id] => 131255
+                            [access_key] => 7478aa2ec5de1a25a4
+                        )
+		
+	
+	id_group_post		varchar(255)
+	id_photo			int
+	album_id			int
+	owner_id			int
+	photo_1280			varchar(255)
+	date_unix			int
+	date				varchar(255)
+	time				varchar(255)
+	post_id				int
+		
+	создание таблицы
+		CREATE TABLE `yii_project`.`vk_attachments` ( `id_group_post` VARCHAR(255) NOT NULL , `id_photo` INT NOT NULL , `album_id` INT NOT NULL , `owner_id` INT NOT NULL , `photo_1280` VARCHAR(255) NOT NULL , `date_unix` INT NOT NULL , `date` VARCHAR(255) NOT NULL , `time` VARCHAR(255) NOT NULL , `post_id` INT NOT NULL ) ENGINE = InnoDB;
+	
+	[type] => video
+                    [video] => Array
+                        (
+                            [id] => 456242535
+                            [owner_id] => -97180786
+                            [title] => У Менску адбыўся з'езд абаронцаў жывёлаў | В Минске прошел съезд защитников животных
+                            [duration] => 175
+                            [description] => Французскія валанцёры з фонду мадам Брыжыт Бардо прапанавалі свае паслугі беларускім уладам. https://belsat.eu/?p=929867
+
+Яны гатовыя самі за свае ...
+                            [date] => 1543992353
+                            [comments] => 0
+                            [views] => 78
+                            [photo_130] => https://pp.userapi.com/c851520/v851520186/5df1e/ECV1HkA_Cvk.jpg
+                            [photo_320] => https://pp.userapi.com/c851520/v851520186/5df20/gd4LpVkmn0A.jpg
+                            [photo_800] => https://pp.userapi.com/c851520/v851520186/5df21/tMigugdjr5w.jpg
+                            [photo_640] => https://pp.userapi.com/c851520/v851520186/5df21/tMigugdjr5w.jpg
+                            [access_key] => 02f4090eab81e41e17
+                            [platform] => YouTube
+                            [can_add] => 1
+                        )
+						
+	[type] => link
+                    [link] => Array
+                        (
+                            [url] => https://belsat.eu/ru/in-focus/v-minske-proshel-pervyj-vsebelorusskij-sezd-zashhitnikov-zhivotnyh/
+                            [title] => В Минске прошел Первый Всебелорусский съезд защитников животных
+                            [description] => Французские волонтеры из фонда мадам Брижит Бардо предложили свои услуги белорусским властям. Они готовы сами и за свои деньги гуманно решать проблему бездомных животных. Чиновники же ответили, что им нужны только деньги, а они сами разберутся, куда их направить.
+                            [target] => internal
+                            [photo] => Array
+                                (
+                                    [id] => 456256876
+                                    [album_id] => -28
+                                    [owner_id] => 2000029578
+                                    [photo_75] => https://pp.userapi.com/c849028/v849028347/d731e/LNZknKXtM00.jpg
+                                    [photo_130] => https://pp.userapi.com/c849028/v849028347/d731f/H3jv1uJReWg.jpg
+                                    [photo_604] => https://pp.userapi.com/c849028/v849028347/d7320/Z7HFqs4UTHQ.jpg
+                                    [width] => 150
+                                    [height] => 84
+                                    [text] => 
+                                    [date] => 1543992406
+                                )
+
+                        )
 	
