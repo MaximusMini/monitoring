@@ -16,10 +16,21 @@ $this->title = ('Мониторинг за день');
     <div class="container" id="results-monitoring">
     <h4>Результат мониторинга</h4>
     
-    <?php /*echo '<pre>'.print_r($id_group,true).'</pre>'*/?>
-    <?php /*echo '<pre>'.print_r($posts_day,true).'</pre>' */?>
-    <?php echo '<pre>'.print_r($posts_attach,true).'</pre>' /**/?>
-    <?php /*echo '<pre>'.print_r($type_group,true).'</pre>'*/?>
+    <div class="row">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+               <button class="btn btn-info" data-toggle="collapse" data-target="#hide-me">Массив</button>             
+            </div>
+            <div class="panel-body collapse" id="hide-me">
+                <?php echo '<pre>'.print_r($posts_attach,true).'</pre>' /**/?>
+                <?php /*echo '<pre>'.print_r($id_group,true).'</pre>'*/?>
+                <?php /*echo '<pre>'.print_r($posts_day,true).'</pre>' */?>
+                <?php /*echo '<pre>'.print_r($type_group,true).'</pre>'*/?>
+            </div>
+        </div>
+    </div>
+    
+
     
     <div class="row">
         <?php foreach($posts_day as $post):?> 
@@ -60,9 +71,11 @@ $this->title = ('Мониторинг за день');
 					        </div>
 					    </div> <!--class="panel-heading"-->
                     </div><!--class="panel-heading"-->
-					<div class="panel-body">
+					<div class="panel-body" style="font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif">
                         <!--Текст поста-->    
-					    <?=$item['text']?> 
+					    <?=nl2br($item['text'])?>
+                        <!--Attachment -->
+                        
 					</div><!--class="panel-body"-->
 				</div><!--class="panel panel-info"-->
             <?php endforeach;?>       

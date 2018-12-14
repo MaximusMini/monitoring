@@ -44,8 +44,8 @@ class VkMonitoringDay extends Model{
     // главная функция
     function main(){
         $this->get_id_group();                     // получение id групп для мониторинга
-        $this->get_group_type();                    // получение типа групп
-        $this->get_posts_day();
+        $this->get_group_type();                   // получение типа групп
+        $this->get_posts_day();                    // получение постов
     }
     
     // функция получения id групп для мониторинга
@@ -69,8 +69,8 @@ class VkMonitoringDay extends Model{
     // получение постов
     function get_posts_day(){
         // очистка таблицы vk_posts
-        //$query_TRUNCATE="TRUNCATE TABLE vk_posts";
-        $this->id_connect_DB->createCommand($query_TRUNCATE)->execute();
+            //$query_TRUNCATE="TRUNCATE TABLE vk_posts";
+        //$this->id_connect_DB->createCommand($query_TRUNCATE)->execute();
         for($i=0; $i<count($this->arr_id_group); $i++){
             // запрос 
             $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=20&offset=0&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
@@ -93,9 +93,8 @@ class VkMonitoringDay extends Model{
                                  ' error_msg='.$answer_arr['error']['error_msg']."\n"
                                  ,FILE_APPEND
                                  );
-                // возврат на исходную
+                // возврат на исходную в случае ошибки
                 $i=$i-1;continue;
-                
             }
             // добавление данных в массив
             array_push($this->arr_posts, $answer_arr);
@@ -140,32 +139,20 @@ class VkMonitoringDay extends Model{
                     
                     // проверка attachments к посту
                     if($answer_arr['response']['items'][$j]['attachments'] != null){
-                        
                         $this->arr_attach["{$this->arr_id_group[$i]['group_id']}_{$answer_arr['response']['items'][$j]['id']}"] = $answer_arr['response']['items'][$j]['attachments'];
-                        
-                        
+                        /*
                         file_put_contents('attach.txt',
                                   serialize($answer_arr['response']['items'][$j]['attachments'])."\n------------------------------------\n",
                                   //$answer_arr['response']['items'][$j]['date'],  
                                   FILE_APPEND
                                   );
-                        /**/
-                        
-                        
+                        */
                         foreach($answer_arr['response']['items'][$j]['attachments'] as $attach){
                             // определить тип attachments и применить соответствующую функцию
                             if($attach['type'] == 'photo'){
                                 $this->insert_attach_photo($attach['photo'], $this->id_group_post);        
                             }  
                         }
-                        
-                        /**/
-                        
-                        
-                        // формирование запроса на добавление информации об attachments к посту
-
-                        // запись в БД информации об attachments к посту
-                        //$this->id_connect_DB->createCommand($query_INSERT)->execute(); 
                     }
                 }    
             }
