@@ -327,10 +327,10 @@ class VkController extends Controller
     
     // мониторинг за день
     public function actionMonitoringDay(){
+        // сбор постов
         if(Yii::$app->request->get('par') == 'start'){
             // создание объекта класса VkMonitoringDay
             $object_day = new VkMonitoringDay();    
-            
             // вызов главной функции модели
             $object_day->main();
             // посты
@@ -341,12 +341,22 @@ class VkController extends Controller
             $answer = $object_day->answer;
             
             return $this->render('monitoring_day',['par'=>'start', 
-                                                   'id_group'=>$id_group,
+                                                   //'id_group'=>$id_group,
                                                    'posts_day'=>$posts_day,
-                                                   'answer'=>$answer,
+                                                   //'answer'=>$answer,
+                                                   'answer'=>$object_day->answer,
                                                    'posts_attach'=>$posts_attach,
                                                    'type_group'=>$object_day->arr_type_group // массив с типом группы (сообщества)
                                                   ]);   
+        // просмотр собранных постов
+        }elseif(Yii::$app->request->get('par') == 'view'){
+            // создание объекта класса VkMonitoringDay
+            $object_day = new VkMonitoringDay();
+            // вызов функции для извлечения постов за конкретный день
+            $object_day->select_posts_day();
+            return $this->render('monitoring_day',['par'=>'view', 
+                                                   'posts_day'=>$object_day->arr_posts_for_day,
+                                                  ]); 
         }else{
             return $this->render('monitoring_day');    
         }

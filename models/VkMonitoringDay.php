@@ -15,9 +15,10 @@ class VkMonitoringDay extends Model{
     
     public $arr_posts=[];               // массив с данными о постах
     public $arr_attach=[];              // массии с данными об attachnments
+    
+    public $arr_posts_for_day=[];       // массив для хранения постов за конкретный день
+    
     public $answer;    
-    
-    
     public $id_group_post;              // id поста, по которому пост идентифицируется в БД
     
      // конструктор класса
@@ -45,7 +46,8 @@ class VkMonitoringDay extends Model{
     function main(){
         $this->get_id_group();                     // получение id групп для мониторинга
         $this->get_group_type();                   // получение типа групп
-        $this->get_posts_day();                    // получение постов
+        //$this->get_posts_day();                    // получение постов
+        $this->get_posts_day_2();                  // получение постов
     }
     
     // функция получения id групп для мониторинга
@@ -83,7 +85,7 @@ class VkMonitoringDay extends Model{
                                   );
             // преобразование ответа в массив
             $answer_arr = json_decode($this->answer,true);
-            // проверка наличия ошибки при запросе'💪🏻💪🏻'
+            // проверка наличия ошибки при запросе
             if(isset($answer_arr['error'])){
                 // запись лога об ошибке
                 file_put_contents('logs/error_wall.get.log',
@@ -162,20 +164,182 @@ class VkMonitoringDay extends Model{
         return $this->arr_posts;
     }
     
-    //запись постов в БД
-    function insert_posts_DB(){
+    // получение постов
+    function get_posts_day_2(){
+        for($i=0; $i<count($this->arr_id_group); $i++){
+            
+            // запрос 
+            $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
+            /*
+            запись запроса в файл */
+            
+             file_put_contents('request_api.txt',
+                                  "https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b".
+                                  "\n------------------------------------\n", 
+                                  FILE_APPEND
+                                  );
+            
+            // преобразование ответа в массив
+            $answer_arr = json_decode($this->answer,true);
+            // проверка наличия ошибки при запросе
+            if(isset($answer_arr['error'])){
+                // запись лога об ошибке
+                file_put_contents('logs/error_wall.get.log',
+                                 'error method:wall.get '.date('d.m.Y G:i:s').
+                                 ' id_group='.$this->arr_id_group[$i]['group_id'].
+                                 ' error_code='.$answer_arr['error']['error_code'].
+                                 ' error_msg='.$answer_arr['error']['error_msg']."\n"
+                                 ,FILE_APPEND
+                                 );
+                // возврат на исходную в случае ошибки
+                $i=$i-1;continue;
+            }
+            // проверка даты поста на соотвествие действующему дню
+            $now_day = date("d.m.Y",time());                                    // действующая дата
+            $post_day = date("d.m.Y",$answer_arr['response']['items'][0]['date']); // дата поста
+            if($now_day == $post_day){ // если дата соотвествует, данные о посте заносятся в таблицу vk_posts
+                // проверка наличия записи о посте в БД - если нету => записать
+                 if($this->id_connect_DB->createCommand('SELECT * FROM vk_posts WHERE id_group_post=\''.$this->arr_id_group[$i]['group_id'].'_'.$answer_arr['response']['items'][0]['id'].'\'')->queryAll() == null){
+                    // проверка поста на закрепленность
+                    if($answer_arr['response']['items'][0]['is_pinned'] == null){
+                        $is_pinned = 0;}else{$is_pinned = 1;
+                    }
+                    // id поста, по которому пост идентифицируется в БД
+                    $this->id_group_post = $this->arr_id_group[$i]['group_id'].'_'.$answer_arr['response']['items'][0]['id'];
+                    // проверка наличия количества о просмотре поста
+                    if($answer_arr['response']['items'][0]['views']['count'] == null){
+                        $posts_views = 0;    
+                    }else{
+                        $posts_views = $answer_arr['response']['items'][0]['views']['count'];     
+                    }
+                    // формирование ссылки на пост
+                    /*ссылка на пост группы*/
+                    //SELECT type FROM vk_groups WHERE group_id=99725619 
+                    
+                       
+                    
+                     
+                     file_put_contents('SELECT_type.txt',
+                                   "SELECT type FROM vk_groups WHERE group_id={$this->arr_id_group[$i]['group_id']}".
+                                  "\n------------------------------------\n", 
+                                  FILE_APPEND
+                                  ); 
+                        
+                        
+                    if($this->arr_type_group[$this->arr_id_group[$i]['group_id']] == 'group'){
+                        $link_post = "https://vk.com/club{$this->arr_id_group[$i]}?w=wall-{$this->arr_id_group[$i]}_{$answer_arr['response']['items'][0]['id']}";    
+                    } 
+                    /* ссылка на пост публичной страницы*/ 
+                    if($this->arr_type_group[$this->arr_id_group[$i]['group_id']]== 'page'){
+                        $link_post = "https://vk.com/public{$this->arr_id_group[$i]}?w=wall-{$this->arr_id_group[$i]}_{$answer_arr['response']['items'][0]['id']}";    
+                    }  
+                    // формирование запроса на добавление информации о посте
+                    $query_INSERT="INSERT INTO vk_posts(id_group_post, id_post, id_group, link_post, is_pinned, count, date_unix, date_post, time_post, text_post, comments, likes, reposts, views) VALUES (
+                            '{$this->id_group_post}',
+                            {$answer_arr['response']['items'][0]['id']},
+                            {$this->arr_id_group[$i]['group_id']},
+                            {$link_post},
+                            {$is_pinned},
+                            null,
+                            {$answer_arr['response']['items'][0]['date']},
+                            '".date('d.m.Y',$answer_arr['response']['items'][0]['date'])."',
+                            '".date('G:i',$answer_arr['response']['items'][0]['date'])."',
+                            '".str_replace("'","\'",$answer_arr['response']['items'][0]['text'])."',
+                            {$answer_arr['response']['items'][0]['comments']['count']},
+                            {$answer_arr['response']['items'][0]['likes']['count']},
+                            {$answer_arr['response']['items'][0]['reposts']['count']},
+                            {$answer_arr['response']['items'][0]['views']['count']}
+                            )"; 
+                 }
+                // запись лога об успешном запросе
+                file_put_contents('logs/success_wall.get_2.log',
+                                  'success method:wall.get '.date('d.m.Y G:i:s').' -|- '.
+                                  'id_group='.$this->arr_id_group[$i]['group_id'].
+                                  ' id_post='.$answer_arr['response']['items'][$i]['id'].
+                                  "\n==============================================================\n".
+                                  $query_INSERT.
+                                  "\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+                                  FILE_APPEND
+                                  );
+                // запись в БД информации о посте
+                //$this->id_connect_DB->createCommand($query_INSERT)->execute(); 
+            }/*$now_day == $post_day*/
+
+                    
+                    // проверка attachments к посту
+                    if($answer_arr['response']['items'][0]['attachments'] != null){
+//                        $this->arr_attach["{$this->arr_id_group[$i]['group_id']}_{$answer_arr['response']['items'][$j]['id']}"] = $answer_arr['response']['items'][$j]['attachments'];
+//                        /*
+//                        file_put_contents('attach.txt',
+//                                  serialize($answer_arr['response']['items'][$j]['attachments'])."\n------------------------------------\n",
+//                                  //$answer_arr['response']['items'][$j]['date'],  
+//                                  FILE_APPEND
+//                                  );
+//                        */
+//                        foreach($answer_arr['response']['items'][$j]['attachments'] as $attach){
+//                            // определить тип attachments и применить соответствующую функцию
+//                            if($attach['type'] == 'photo'){
+//                                $this->insert_attach_photo($attach['photo'], $this->id_group_post);        
+//                            }  
+//                        }
+                    }/*if($answer_arr['response']['items'][$j]['attachments'] != null){*/
+                }/* for($i=0; $i<count($this->arr_id_group); $i++) */
+                return $this->answer = $answer_arr;
+            } /* function get_posts_day_2 */
+    
+    
+    
+    // функция последовательного получения постов
+    function get_one_post($id_group){
+        for($i=0; $i>50; $i++){
+            // запрос
+            $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$id_group}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
+            // преобразование ответа в массив
+                $answer_arr = json_decode($this->answer,true);
+                // проверка наличия ошибки при запросе
+                if(isset($answer_arr['error'])){
+                    // запись лога об ошибке
+                    file_put_contents('logs/error_wall.get.log',
+                                     'error method:wall.get '.date('d.m.Y G:i:s').
+                                     ' id_group='.$this->arr_id_group[$i]['group_id'].
+                                     ' error_code='.$answer_arr['error']['error_code'].
+                                     ' error_msg='.$answer_arr['error']['error_msg']."\n"
+                                     ,FILE_APPEND
+                                     );
+                    // возврат на исходную в случае ошибки
+                    $i=$i-1;continue;
+                }
+        }	
+    }
+    
+    
+    //извлечение постов в БД за конкретный день
+    function select_posts_day(){
+        // определение текущей даты
+        $now_day = date("d.m.Y",time());
+        // формирование запроса для выборки из БД
+        $query_posts = "SELECT * FROM vk_posts WHERE date_post='{$now_day}' ORDER BY date_unix DESC";
+        // запрос к БД
+        $this->arr_posts_for_day=$this->id_connect_DB->createCommand($query_posts)->queryAll();
+        /*запись в файл полученного массива
         
+         file_put_contents('select_posts_day.txt',
+                            json_encode($this->arr_posts_for_day).
+                            "\n------------------------------------\n", 
+                            FILE_APPEND
+                            );
+        */
     }
     
     // запись в БД информации об attachments type => photo
     function insert_attach_photo($arr_photo, $id_group_post){
-       
+                        /*
                         file_put_contents('attach_photo.txt',
                                   //serialize($arr_photo)."\n------------------------------------\n",
                                   $arr_photo['photo_604']."\n------------------------------------\n", 
                                   FILE_APPEND
                                   );
-                         /**/
+                         */
         
         // формирование запроса на добавление информации об attachments к посту
         $query_INSERT="INSERT INTO `vk_attachments` (`id_group_post`, `id_photo`, `album_id`, `owner_id`, `photo_1280`, `date_unix`, `date`, `time`)                 VALUES(

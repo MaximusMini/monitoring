@@ -1,0 +1,12 @@
+SELECT type FROM vk_groups WHERE group_id=Array
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=97180786
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=97180786
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=165278869
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=56765622
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=22639447
+------------------------------------

@@ -73,7 +73,7 @@ CREATE TABLE `vk_accounts` (
   `occupation_type` varchar(50) DEFAULT NULL,
   `occupation_name` varchar(100) DEFAULT NULL,
   `url` varchar(250) DEFAULT NULL,
-  `created` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  `created` datetime
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -124,7 +124,7 @@ CREATE TABLE `vk_groups` (
   `photo_100` varchar(250) DEFAULT NULL,
   `photo_200` varchar(250) DEFAULT NULL,
   `url` varchar(250) DEFAULT NULL,
-  `created` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  `created` datetime
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
