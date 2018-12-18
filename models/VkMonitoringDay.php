@@ -18,13 +18,18 @@ class VkMonitoringDay extends Model{
     
     public $arr_posts_for_day=[];       // массив для хранения постов за конкретный день
     
+    public $now_date;                   // дата действующего дня
+    
     public $answer;    
     public $id_group_post;              // id поста, по которому пост идентифицируется в БД
     
      // конструктор класса
     public function __construct(){
         // создание подключения к БД
-        $this->id_connect_DB = Yii::$app->db;    
+        $this->id_connect_DB = Yii::$app->db;
+        // дата действующего дня
+        $this->now_date = date("d.m.Y",time());
+        
     }
     
     // функция для использования библиотеки curl
@@ -46,8 +51,8 @@ class VkMonitoringDay extends Model{
     function main(){
         $this->get_id_group();                     // получение id групп для мониторинга
         $this->get_group_type();                   // получение типа групп
-        //$this->get_posts_day();                    // получение постов
-        $this->get_posts_day_2();                  // получение постов
+        //$this->get_posts_day();                  // получение постов
+        $this->get_posts();                        // получение постов
     }
     
     // функция получения id групп для мониторинга
@@ -68,8 +73,15 @@ class VkMonitoringDay extends Model{
         return;
     } 
     
+    // получение постов 
+    function get_posts(){
+        for($i=0; $i<count($this->arr_id_group); $i++){
+            $this->get_posts_day($this->now_date, $this->arr_id_group[$i]['group_id']);    
+        }
+    }
+    
     // получение постов
-    function get_posts_day(){
+    function get_posts_day_(){
         // очистка таблицы vk_posts
             //$query_TRUNCATE="TRUNCATE TABLE vk_posts";
         //$this->id_connect_DB->createCommand($query_TRUNCATE)->execute();
@@ -165,16 +177,18 @@ class VkMonitoringDay extends Model{
     }
     
     // получение постов
-    function get_posts_day_2(){
-        for($i=0; $i<count($this->arr_id_group); $i++){
-            
+    function get_posts_day($day, $id_group){
+        // запись лога
+        file_put_contents('logs/get_posts_day.txt',$day.' id_group:'.$id_group."\n",FILE_APPEND);
+        // обход постов
+        for($i=0; ; $i++){
             // запрос 
-            $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
+            $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$id_group}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
             /*
             запись запроса в файл */
             
              file_put_contents('request_api.txt',
-                                  "https://api.vk.com/method/wall.get?owner_id=-{$this->arr_id_group[$i]['group_id']}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b".
+                                  "https://api.vk.com/method/wall.get?owner_id=-{$id_group}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b".
                                   "\n------------------------------------\n", 
                                   FILE_APPEND
                                   );
@@ -186,7 +200,7 @@ class VkMonitoringDay extends Model{
                 // запись лога об ошибке
                 file_put_contents('logs/error_wall.get.log',
                                  'error method:wall.get '.date('d.m.Y G:i:s').
-                                 ' id_group='.$this->arr_id_group[$i]['group_id'].
+                                 ' id_group='.$id_group.
                                  ' error_code='.$answer_arr['error']['error_code'].
                                  ' error_msg='.$answer_arr['error']['error_msg']."\n"
                                  ,FILE_APPEND
@@ -195,17 +209,16 @@ class VkMonitoringDay extends Model{
                 $i=$i-1;continue;
             }
             // проверка даты поста на соотвествие действующему дню
-            $now_day = date("d.m.Y",time());                                    // действующая дата
             $post_day = date("d.m.Y",$answer_arr['response']['items'][0]['date']); // дата поста
-            if($now_day == $post_day){ // если дата соотвествует, данные о посте заносятся в таблицу vk_posts
+            if($day == $post_day){ // если дата соотвествует, данные о посте заносятся в таблицу vk_posts
                 // проверка наличия записи о посте в БД - если нету => записать
-                 if($this->id_connect_DB->createCommand('SELECT * FROM vk_posts WHERE id_group_post=\''.$this->arr_id_group[$i]['group_id'].'_'.$answer_arr['response']['items'][0]['id'].'\'')->queryAll() == null){
+                 if($this->id_connect_DB->createCommand('SELECT * FROM vk_posts WHERE id_group_post=\''.$id_group.'_'.$answer_arr['response']['items'][0]['id'].'\'')->queryAll() == null){
                     // проверка поста на закрепленность
                     if($answer_arr['response']['items'][0]['is_pinned'] == null){
                         $is_pinned = 0;}else{$is_pinned = 1;
                     }
                     // id поста, по которому пост идентифицируется в БД
-                    $this->id_group_post = $this->arr_id_group[$i]['group_id'].'_'.$answer_arr['response']['items'][0]['id'];
+                    $this->id_group_post = $id_group.'_'.$answer_arr['response']['items'][0]['id'];
                     // проверка наличия количества о просмотре поста
                     if($answer_arr['response']['items'][0]['views']['count'] == null){
                         $posts_views = 0;    
@@ -213,34 +226,22 @@ class VkMonitoringDay extends Model{
                         $posts_views = $answer_arr['response']['items'][0]['views']['count'];     
                     }
                     // формирование ссылки на пост
-                    /*ссылка на пост группы*/
-                    //SELECT type FROM vk_groups WHERE group_id=99725619 
-                    
-                       
-                    
-                     
-                     file_put_contents('SELECT_type.txt',
-                                   "SELECT type FROM vk_groups WHERE group_id={$this->arr_id_group[$i]['group_id']}".
-                                  "\n------------------------------------\n", 
-                                  FILE_APPEND
-                                  ); 
-                        
-                        
-                    if($this->arr_type_group[$this->arr_id_group[$i]['group_id']] == 'group'){
-                        $link_post = "https://vk.com/club{$this->arr_id_group[$i]}?w=wall-{$this->arr_id_group[$i]}_{$answer_arr['response']['items'][0]['id']}";    
+                    /*ссылка на пост группы*/    
+                    if($this->arr_type_group[$id_group] == 'group'){
+                        $link_post = "https://vk.com/club{$id_group}?w=wall-{$id_group}_{$answer_arr['response']['items'][0]['id']}";    
                     } 
                     /* ссылка на пост публичной страницы*/ 
-                    if($this->arr_type_group[$this->arr_id_group[$i]['group_id']]== 'page'){
-                        $link_post = "https://vk.com/public{$this->arr_id_group[$i]}?w=wall-{$this->arr_id_group[$i]}_{$answer_arr['response']['items'][0]['id']}";    
+                    if($this->arr_type_group[$id_group]== 'page'){
+                        $link_post = "https://vk.com/public{$id_group}?w=wall-{$id_group}_{$answer_arr['response']['items'][0]['id']}";    
                     }  
                     // формирование запроса на добавление информации о посте
                     $query_INSERT="INSERT INTO vk_posts(id_group_post, id_post, id_group, link_post, is_pinned, count, date_unix, date_post, time_post, text_post, comments, likes, reposts, views) VALUES (
                             '{$this->id_group_post}',
                             {$answer_arr['response']['items'][0]['id']},
-                            {$this->arr_id_group[$i]['group_id']},
-                            {$link_post},
+                            {$id_group},
+                            '{$link_post}',
                             {$is_pinned},
-                            null,
+                            {$answer_arr['response']['count']},
                             {$answer_arr['response']['items'][0]['date']},
                             '".date('d.m.Y',$answer_arr['response']['items'][0]['date'])."',
                             '".date('G:i',$answer_arr['response']['items'][0]['date'])."',
@@ -250,20 +251,25 @@ class VkMonitoringDay extends Model{
                             {$answer_arr['response']['items'][0]['reposts']['count']},
                             {$answer_arr['response']['items'][0]['views']['count']}
                             )"; 
-                 }
-                // запись лога об успешном запросе
+                    }
+                // запись лога об успешном запросе SELECT COUNT(DISTINCT id_group) FROM vk_posts
                 file_put_contents('logs/success_wall.get_2.log',
                                   'success method:wall.get '.date('d.m.Y G:i:s').' -|- '.
-                                  'id_group='.$this->arr_id_group[$i]['group_id'].
-                                  ' id_post='.$answer_arr['response']['items'][$i]['id'].
+                                  'id_group='.$id_group.
+                                  ' id_post='.$answer_arr['response']['items'][0]['id'].
                                   "\n==============================================================\n".
                                   $query_INSERT.
                                   "\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
                                   FILE_APPEND
                                   );
                 // запись в БД информации о посте
-                //$this->id_connect_DB->createCommand($query_INSERT)->execute(); 
-            }/*$now_day == $post_day*/
+                $this->id_connect_DB->createCommand($query_INSERT)->execute(); 
+            }elseif($is_pinned == 1){
+                continue;
+            }else{
+                //return $this->answer = $answer_arr;
+                return;
+            }/*$day == $post_day*/
 
                     
                     // проверка attachments к посту
@@ -283,15 +289,18 @@ class VkMonitoringDay extends Model{
 //                            }  
 //                        }
                     }/*if($answer_arr['response']['items'][$j]['attachments'] != null){*/
+                
                 }/* for($i=0; $i<count($this->arr_id_group); $i++) */
-                return $this->answer = $answer_arr;
+         
+                //return $this->answer = $answer_arr;
+                return;
             } /* function get_posts_day_2 */
     
     
     
     // функция последовательного получения постов
     function get_one_post($id_group){
-        for($i=0; $i>50; $i++){
+        for($i=0; ; $i++){
             // запрос
             $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$id_group}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
             // преобразование ответа в массив

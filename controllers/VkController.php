@@ -334,13 +334,13 @@ class VkController extends Controller
             // вызов главной функции модели
             $object_day->main();
             // посты
-            $posts_day = $object_day->arr_posts;
+            //$posts_day = $object_day->arr_posts;
             // attachments
-            $posts_attach = $object_day->arr_attach; //arr_attach
+            //$posts_attach = $object_day->arr_attach; //arr_attach
             // ответ
-            $answer = $object_day->answer;
+            //$answer = $object_day->answer;
             
-            return $this->render('monitoring_day',['par'=>'start', 
+            return $this->render('monitoring_day',[//'par'=>'start', 
                                                    //'id_group'=>$id_group,
                                                    'posts_day'=>$posts_day,
                                                    //'answer'=>$answer,

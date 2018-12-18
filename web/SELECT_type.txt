@@ -10,3 +10,19 @@ SELECT type FROM vk_groups WHERE group_id=56765622
 ------------------------------------
 SELECT type FROM vk_groups WHERE group_id=22639447
 ------------------------------------
+SELECT type FROM vk_groups WHERE group_id=99725619
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=97180786
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=30281638
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=76296871
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=99725619
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=97180786
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=30281638
+------------------------------------
+SELECT type FROM vk_groups WHERE group_id=76296871
+------------------------------------
