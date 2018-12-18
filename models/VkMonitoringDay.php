@@ -182,8 +182,9 @@ class VkMonitoringDay extends Model{
         file_put_contents('logs/get_posts_day.txt',$day.' id_group:'.$id_group."\n",FILE_APPEND);
         // обход постов
         for($i=0; ; $i++){
-            // запрос 
-            $this->answer = $this->curl_get("https://api.vk.com/method/wall.get?owner_id=-{$id_group}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b");
+            // запрос
+            $request = "https://api.vk.com/method/wall.get?owner_id=-{$id_group}&count=1&offset={$i}&filter=owner&extended=1&v=5.69&access_token=33be01cf14cf4e807b075601e45972657fd2c7fd532da9e20a1b641f85b6c4a4bb22ff38b71167321b02b";
+            $this->answer = $this->curl_get($request);
             /*
             запись запроса в файл */
             
@@ -205,18 +206,29 @@ class VkMonitoringDay extends Model{
                                  ' error_msg='.$answer_arr['error']['error_msg']."\n"
                                  ,FILE_APPEND
                                  );
+                
+                file_put_contents('logs/sss.log',
+                                  "ERROR============== \n".
+                                  $day."\n".
+                                  "{$request} \n".
+                                  $answer_arr['error']['error_msg']."\n".
+                                  "-------------------------------\n"
+                                  ,
+                                  FILE_APPEND
+                                  );
                 // возврат на исходную в случае ошибки
                 $i=$i-1;continue;
             }
             // проверка даты поста на соотвествие действующему дню
             $post_day = date("d.m.Y",$answer_arr['response']['items'][0]['date']); // дата поста
+            // проверка поста на закрепленность
+            if($answer_arr['response']['items'][0]['is_pinned'] == null){
+                $is_pinned = 0;}else{$is_pinned = 1;
+            }
             if($day == $post_day){ // если дата соотвествует, данные о посте заносятся в таблицу vk_posts
                 // проверка наличия записи о посте в БД - если нету => записать
                  if($this->id_connect_DB->createCommand('SELECT * FROM vk_posts WHERE id_group_post=\''.$id_group.'_'.$answer_arr['response']['items'][0]['id'].'\'')->queryAll() == null){
-                    // проверка поста на закрепленность
-                    if($answer_arr['response']['items'][0]['is_pinned'] == null){
-                        $is_pinned = 0;}else{$is_pinned = 1;
-                    }
+
                     // id поста, по которому пост идентифицируется в БД
                     $this->id_group_post = $id_group.'_'.$answer_arr['response']['items'][0]['id'];
                     // проверка наличия количества о просмотре поста
@@ -251,23 +263,41 @@ class VkMonitoringDay extends Model{
                             {$answer_arr['response']['items'][0]['reposts']['count']},
                             {$answer_arr['response']['items'][0]['views']['count']}
                             )"; 
-                    }
+                   
                 // запись лога об успешном запросе SELECT COUNT(DISTINCT id_group) FROM vk_posts
-                file_put_contents('logs/success_wall.get_2.log',
-                                  'success method:wall.get '.date('d.m.Y G:i:s').' -|- '.
-                                  'id_group='.$id_group.
-                                  ' id_post='.$answer_arr['response']['items'][0]['id'].
-                                  "\n==============================================================\n".
-                                  $query_INSERT.
-                                  "\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+                file_put_contents('logs/sss.log',
+                                  "success \n".
+                                  "сравнение дней ".$day." = ".$post_day."\n".
+                                  "{$request} \n".
+                                  str_replace("\n",'',$query_INSERT)."\n".
+                                  "-------------------------------\n"
+                                  ,
                                   FILE_APPEND
                                   );
                 // запись в БД информации о посте
-                $this->id_connect_DB->createCommand($query_INSERT)->execute(); 
+                $this->id_connect_DB->createCommand($query_INSERT)->execute();
+                }
             }elseif($is_pinned == 1){
+                file_put_contents('logs/sss.log',
+                                  "danger \n".
+                                  "сравнение дней ".$day." = ".$post_day."\n".
+                                  "{$request} \n".
+                                  str_replace("\n",'',$query_INSERT)."\n".
+                                  "-------------------------------\n"
+                                  ,
+                                  FILE_APPEND
+                                  );
                 continue;
             }else{
                 //return $this->answer = $answer_arr;
+                file_put_contents('logs/sss.log',
+                                  "error \n".
+                                  "сравнение дней ".$day." = ".$post_day."\n".
+                                  "{$request} \n".
+                                  "-------------------------------\n"
+                                  ,
+                                  FILE_APPEND
+                                  );
                 return;
             }/*$day == $post_day*/
 
